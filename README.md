@@ -1,7 +1,7 @@
 # PyQuest !
 Nagy's Question &amp; Answer Collection for Python
 
-[image](https://github.com/Python3-Training/PyQuest/blob/main/PyQuest_Logo.png)
+[image](https://github.com/Python3-Training/PyQuest/PyQuest_Logo.png)
 
 ## zGroup
 Here is [the Facebook group](https://www.facebook.com/PythonVideo/)
