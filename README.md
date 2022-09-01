@@ -1,5 +1,6 @@
 # PyQuest !
-Nagy's Question &amp; Answer Collection for Python
+**Nagy's Question &amp; Answer Collection for Python**
+*PyQuest was originally part of the **DatMan** project. Everything related to that question and answer database is now maintained here!*
 
 ![Pyquest Logo](PyQuest_Logo.png)
 
