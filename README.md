@@ -1,9 +1,11 @@
 # PyQuest !
 **Nagy's Question &amp; Answer Collection for Python**
 
-*PyQuest **was** originally part of the **DatMan** Project. Everything related to that question and answer database application is now here!*
-
 ![Pyquest Logo](PyQuest_Logo.png)
+
+*PyQuest **was** originally part of the **DatMan** Project.*
+
+*Everything related to the question and answer database application is now here!*
 
 ## zGroup
 Here is [the Facebook group](https://www.facebook.com/PythonVideo/)
