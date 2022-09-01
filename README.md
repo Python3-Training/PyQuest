@@ -22,4 +22,7 @@ Here are [the Amazon books](https://www.amazon.com/Randall-Nagy/e/B08ZJLH1VN/ref
 # zExample
 ![Sample Question](https://github.com/Python3-Training/PyQuest/blob/main/QuestJSOB/Images/2020_10_08_KA9001.png)
 
+#zAnswer
+![Sample Answer](https://github.com/Python3-Training/PyQuest/blob/main/QuestJSOB/KASeries/KA9000/KA9001.pdf)
+
 [more...](https://github.com/Python3-Training/PyQuest/tree/main/QuestJSOB/KASeries/KA9000)
