@@ -13,7 +13,7 @@ Here are [the Videos](https://soft9000.com)
 Here are [the Amazon books](https://www.amazon.com/Randall-Nagy/e/B08ZJLH1VN/ref=aufs_dp_fta_dsk)
 
 ### PyQuest Books
--[Beginner Q&A](https://www.amazon.com/dp/B08P7JYG1R)
--[Advanced Q&A](https://www.amazon.com/dp/B08NYZ99PS)
+- [Beginner Q&A](https://www.amazon.com/dp/B08P7JYG1R)
+- [Advanced Q&A](https://www.amazon.com/dp/B08NYZ99PS)
 
 
