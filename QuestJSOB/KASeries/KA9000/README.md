@@ -1,11 +1,12 @@
 The KA9000 series is all about answering more advanced, and / or expert, level questions.
 
-- 2020/11/21: The [first book](https://www.amazon.com/dp/B08NYZ99PS) is now on Amazon.
+Here is a link to the [ADVANCED Questions & Answers](https://www.amazon.com/gp/product/B08NYZ99PS).
+Here is a link to the [BEGINNER Questions & Answers](https://www.amazon.com/gp/product/B08P7JYG1R).
 
-Yet stay tuned: A Beginner (KA1000), Intermediate (KA2000), and Advanced (KA3000) series is soon to follow?
+You might also want to bookmark the new [author's page on Amazon](https://www.amazon.com/Randall-Nagy/e/B08ZJLH1VN): the Intermediate (KA2000) set of questons & answers is soon to follow!
 
+Finally, here are the links to both my personal [python product group](https://www.facebook.com/groups/nagyspythontraining) and our **20,000** member-strong ['Pythoneering group](https://www.facebook.com/groups/Python3Training). 
 
 Happy Weekends,
 
 --Randall
-
