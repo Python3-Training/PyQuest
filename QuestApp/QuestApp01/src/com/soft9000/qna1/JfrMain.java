@@ -432,11 +432,15 @@ public class JfrMain extends javax.swing.JFrame {
             }
         }
         String data = com.soft9000.gui.Misc.Paste();
-        if (data.equals("")) {
+        if (data == null || data.equals("")) {
             JOptionPane.showMessageDialog(rootPane, "Clipboard is empty.");
             return;
         }
         String decode = BasicQuestion.Decode(data);
+        if (decode == null || decode.equals("")) {
+            JOptionPane.showMessageDialog(rootPane, "Invalid clipboard content.");
+            return;
+        }
         BasicQuestion info = BasicQuestion.FromClipboard(decode);
         if (info == null) {
             JOptionPane.showMessageDialog(rootPane, "Unsupport data format.");
@@ -453,31 +457,31 @@ public class JfrMain extends javax.swing.JFrame {
     }
 
     private void doDelete() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        JOptionPane.showMessageDialog(this, "Not supported yet.");
     }
 
     private void doUnlock() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        JOptionPane.showMessageDialog(this, "Not supported yet.");
     }
 
     private void doCreateDb() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        JOptionPane.showMessageDialog(this, "Not supported yet.");
     }
 
     private void doOpenDb() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        JOptionPane.showMessageDialog(this, "Not supported yet.");
     }
 
     private void doShowStatus() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        JOptionPane.showMessageDialog(this, "Not supported yet.");
     }
 
     private void doSetSelect() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        JOptionPane.showMessageDialog(this, "Not supported yet.");
     }
 
     private void doAbout() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        JOptionPane.showMessageDialog(this, "Not supported yet.");
     }
 
     /**
