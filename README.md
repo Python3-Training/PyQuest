@@ -19,8 +19,8 @@ Here are [the Videos](https://soft9000.com)
 Here are [the Amazon books](https://www.amazon.com/Randall-Nagy/e/B08ZJLH1VN/ref=aufs_dp_fta_dsk)
 
 ### PyQuest Books
-- [Beginner Q&A](https://www.amazon.com/dp/B08P7JYG1R)
-- [Advanced Q&A](https://www.amazon.com/dp/B08NYZ99PS)
+Updated to 100 Q&A case studies the latest edition of **Python Interview Questions & Concepts** combines the content of **PyQuest Beginner**, **PyQuest Advanced**, 35 additional **PyQuest Intermediate** concepts as well as 5 more PyQuest Beginner questions, answers, and code demonstrations. The updated set of PyQuest cards are part of the companion PyQuest card deck, game, and flashcard book.
+
 - [100 Python Questions](https://www.amazon.com/dp/B0BH97W78F)
 
 
