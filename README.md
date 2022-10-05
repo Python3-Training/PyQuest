@@ -21,6 +21,7 @@ Here are [the Amazon books](https://www.amazon.com/Randall-Nagy/e/B08ZJLH1VN/ref
 ### PyQuest Books
 - [Beginner Q&A](https://www.amazon.com/dp/B08P7JYG1R)
 - [Advanced Q&A](https://www.amazon.com/dp/B08NYZ99PS)
+- [100 Python Questions](https://www.amazon.com/dp/B0BH97W78F)
 
 
 # zExample
