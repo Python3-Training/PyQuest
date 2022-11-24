@@ -80,26 +80,26 @@ class Quest():
         import uuid
         ''' Demonstrate how to work on a list of Quest()ions '''
         for ss, q in enumerate(values, 1):
-            if q.GID == 'tbd':
-                q.GID = str(uuid.uuid1()).upper()
-            q.ID = ss
+            if q['GID'] == 'tbd':
+                q['GID'] = str(uuid.uuid1()).upper()
+            q['ID'] = ss
         return len(values)
         
     @staticmethod
     def Reorder(values, bGid=False):
         ''' Demonstrate how to work on a list of Quest()ions '''
         if bGid:
-            return sorted(values, key=lambda a: a.KID + a.GID)
-        return sorted(values, key=lambda a: a.status + a.association + a.difficulty)
+            return sorted(values, key=lambda a: a['KID'] + a['GID'])
+        return sorted(values, key=lambda a: a['status'] + a['association'] + a['difficulty'])
         
     @staticmethod
     def Tally(values):
         ''' Demonstrate how to work on a list of Quest()ions '''
         results = {}
         for value in values:
-            tags = value.association.split('|')
-            tags.append('level.' + value.difficulty)
-            tags.append('status.' + value.status)
+            tags = value['association'].split('|')
+            tags.append('level.' + value['difficulty'])
+            tags.append('status.' + value['status'])
             for tag in tags:
                 if tag.find('zzend') != -1:
                     continue
