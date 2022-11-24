@@ -69,21 +69,11 @@ class Quest():
         return result
 
     @staticmethod
-    def Load(file_name = FILE_DEFAULT, use_eval=True, exceptional=False):
+    def Load(file_name = FILE_DEFAULT):
         ''' Load a pre-existing file into a list of Quest()s '''
-        zresults = list()
-        coder = JSOB(file_name)
-        if use_eval:
-            errors, data = coder.load_by_eval(exceptional)
-            if errors:
-                raise Exception(f"eval: {errors} error(s) were found.")
-            for dict_ in data:
-                zresults.append(Quest(dict_))
-        else:
-            data = coder.load_by_json()
-            for zdict in json.loads(data, encoding='utf-8'):
-                zresults.append(Quest(zdict))
-        return zresults
+        with open(file_name) as fh:
+            data = fh.read()
+            return eval(data)
         
     @staticmethod
     def Renum(values):
@@ -124,16 +114,8 @@ class Quest():
     
     @staticmethod
     def Sync(values, file_name = FILE_DEFAULT):
-        ''' Save the data to a multi-line / human editable J.S.O.N database '''
-        data = '['
-        for ss, obj in enumerate(values):
-            if ss:
-                data += ','
-            data += '\n'
-            data += str(obj)
-        data += '\n]\n'
         coder = JSOB(file_name)
-        return coder.sync(data)
+        return coder.sync_rows(values)
         
     @staticmethod
     def Source():

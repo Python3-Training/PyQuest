@@ -43,80 +43,16 @@ class JSOB(NewLine):
         self.backup = backup
         self.last_snap = None
         self.last_execption = None
-
-    def __from_human_line(self, data) -> str:
-        ''' Encode a single-line for json parsing '''
-        if data.find('\r'):
-            data = data.replace('\r\n', '\n')
-        return self.encode(data)
-
-    def __parse_one(self, zlines, exceptional = False) -> dict:
-        try:
-            result = {}
-            hold = eval(' '.join(zlines))
-            for key in hold:
-                val = hold[key]
-                if not isinstance(val, str):
-                    result[key] = val
-                else:
-                    result[key] = self.decode(val)
-            return result
-
-        except Exception as ex:
-            self.last_execption = ex
-            if exceptional:
-                raise ex
-        return None
     
-    def load_by_json(self) -> str:
+    def load(self) -> list:
         ''' Reads file, converting JSON's 'human readable' multiline escapes, to inline \\n style. '''
         self.last_execption = None
         try:
             with open(self.file, encoding='utf-8') as fh:
-                return self.__from_human_line(fh.read())
+                return eval(fh.read())
         except Exception as ex:
             self.last_exception = ex
         return ''
-
-    def load_by_eval(self, exceptional=False) -> list:
-        ''' Parses one dictionary-entry, at-a-time, using eval - NOT THE JSON PARSER. '''
-        self.last_execption = None
-        results = []; errors = 0
-        try:
-            with open(self.file, encoding='utf-8') as fh:
-                ignore = ('[', ']')
-                zlines = list()
-                buffer = ''
-                for ss, line in enumerate(fh, 1):
-                    if line.endswith('\\\n'):
-                        buffer += line
-                        continue
-                    if buffer:
-                        buffer += line
-                        line = buffer
-                        buffer = ''
-                    line = line.strip()
-                    if line.endswith('"'):
-                        line += ',' # a common gotcha
-                    line = self.__from_human_line(line)
-                    if not line or line in ignore:
-                        continue
-                    if line[0] == "}":
-                        zlines.append('}')
-                        dict_ = self.__parse_one(zlines, exceptional)
-                        if not dict_: 
-                            errors += 1
-                        else:
-                            results.append(dict_)
-                        zlines.clear()
-                    else:
-                        zlines.append(line)
-        except Exception as ex:
-            errors += 1
-            self.last_exception = ex
-            if exceptional:
-                raise ex
-        return errors, results
 
     def snapshot(self) -> bool:
         ''' Backup the constructed file to a 'probably unique' file name. '''
@@ -132,14 +68,20 @@ class JSOB(NewLine):
         self.last_execption = None
         return True
 
-    def sync(self, json_string) -> bool:
+    def sync_rows(self, rows:dict) -> bool:
+        from pprint import pprint as pprint
         ''' Save a file, backing-up if, and as, desired. '''
         if self.backup:
             if not self.snapshot():
                 raise Exception(f'Unable to backup "{self.file}"?')
         try:
             with open(self.file, 'w', encoding='utf-8') as fh:
-                print(json_string, end='', file=fh)
+                print("[\n", file=fh)
+                for ss, row in enumerate(rows):
+                    if ss:
+                        print(",\n", file=fh)
+                    pprint(row, stream=fh)
+                print("\n]", file=fh)
                 return True
         except Exception as ex:
             self.last_exception = ex

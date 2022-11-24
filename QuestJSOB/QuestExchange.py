@@ -19,13 +19,13 @@ class EncodedJSOB:
     @staticmethod
     def to_share(quest_obj) -> str:
         ''' Copy-out object to the human-sharable format. '''
-        if not isinstance(quest_obj, Quest):
+        if not isinstance(quest_obj, dict):
             return False
         clear = repr(quest_obj) # encode values.
         return EncodedJSOB.encode(clear)
 
     @staticmethod
-    def from_share(block):
+    def from_share(block) -> dict:
         ''' Copy-in the human to_share(), to an object. '''
         decoded = ''
         for char in block:
@@ -33,8 +33,7 @@ class EncodedJSOB:
                 decoded += char
         data = EncodedJSOB.decode(decoded)
         try:
-            data = eval(data)
-            return Quest(data)
+            return eval(data)
         except:
             pass
         return None

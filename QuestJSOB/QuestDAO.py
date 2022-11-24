@@ -90,40 +90,57 @@ class AllQuests:
             for ref in zlist:
                 yield OrderedDict(ref)
         return None
-        
+
     @staticmethod
-    def Import():
+    def Append(dao, rows):
+        for obj in rows:
+            row = obj.__dict__
+            newrow = AllQuests()
+            record = newrow.fields
+            record['KID'] = row['KID']
+            record['GID'] = row['GID']
+            record['QUESTION'] = row['question']
+            record['ANSWER'] = row['answer']
+            record['DIFFICULTY'] = row['difficulty']
+            record['ASSOCIATION'] = row['association']
+            record['STATUS'] = row['status']
+            record['LANGUAGE'] = 'PYTHON3'
+            record['CODE1'] = 0
+            record['CODE2'] = 0
+            record['VERSION'] = 0.0
+            dao.insert(newrow)
+        return True
+
+
+    @staticmethod
+    def CreateFrom(rows) -> bool:
         try:
             dao = AllQuests()
             dao.open()
             dao.create_table()
-            rows = Quest.Load('/d_drive/a5/2020_01_03_TEC/2021_01_01_Python_Related/9000_Python_QnA_2020_12_29/2021_01_01_9000_Python_QnA/AllQuestions.json')
-            for obj in rows:
-                row = obj.__dict__
-                newrow = AllQuests()
-                record = newrow.fields
-                record['KID'] = row['KID']
-                record['GID'] = row['GID']
-                record['QUESTION'] = row['question']
-                record['ANSWER'] = row['answer']
-                record['DIFFICULTY'] = row['difficulty']
-                record['ASSOCIATION'] = row['association']
-                record['STATUS'] = row['status']
-                record['LANGUAGE'] = 'PYTHON3'
-                record['CODE1'] = 0
-                record['CODE2'] = 0
-                record['VERSION'] = 0.0
-                dao.insert(newrow)
-            dao.close()
-            return True
+            return Append(dao, rows)
         except Exception as ex:
             print(ex)
+        finally:
+            dao.close()
         return False
+
         
-    
-if __name__ == '__main__':
-    import sys
-    sys.path.insert(0, '.')
-    sys.path.insert(0, '../')
-    from QuestJSOB.Questions import Quest as Quest  
-    AllQuests.Import()
+    @staticmethod
+    def Import(json_file='/d_drive/a5/2020_01_03_TEC/2021_01_01_Python_Related/9000_Python_QnA_2020_12_29/2021_01_01_9000_Python_QnA/AllQuestions.json'):
+        try:
+            dao = AllQuests()
+            dao.open()
+            dao.create_table()
+            rows = Quest.Load(json_file)
+            return Append(dao, rows)
+        finally:
+            dao.close()
+        return False
+   
+##if __name__ == '__main__':
+##    import sys
+##    sys.path.insert(0, '.')
+##    sys.path.insert(0, '../')
+##    from QuestJSOB.Questions import Quest as Quest  
+##    AllQuests.Import()
