@@ -1,6 +1,6 @@
 # JSOB Questions & Answers
 
-The mission is to use a J.S.O.N friendly editor (like Notepad++ - recommended!) to manage / spell check a collection of questions.
+The mission is to use ANY TEXT EDITOR to manage / spell check an eval()uatable collection of questions.
 
 Getting started: https://youtu.be/qBsSf2DIFLs
 
