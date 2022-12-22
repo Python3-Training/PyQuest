@@ -21,11 +21,11 @@ from QuestJSOB.DlgMessage import DlgMsg
 
 class Main(Tk, TkParent):
 
-    PROJ_TYPE = '.json'
+    PROJ_TYPE = '.eval'
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.ztitle   = 'QuestJSOB 1.1'
+        self.ztitle   = 'QuestJSOB 2.0'
         self.zrelease = str('Testing Release: Come join us ' +
         'in the "Python3 Training" & "PyQuest" Groups, on Facebook.')
         self._quest_data = list()
