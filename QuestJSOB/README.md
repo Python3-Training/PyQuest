@@ -71,3 +71,5 @@ Happy Weekends,
 ## zSupport?
 If you want to support the effort, I seek no donations. Instead, simply feel free to purchase one of [my educational](https://www.udemy.com/user/randallnagy2/) or [printed](https://www.amazon.com/Randall-Nagy/e/B08ZJLH1VN?ref=sr_ntt_srch_lnk_1&qid=1660050704&sr=8-1) productions?
 
+p.s. We've a new set of [project cards](https://github.com/Python3-Training/PyQuest/tree/8b5cdf78625209db537cac4973d93876ef02345d/QuestJSOB/KP_Series) to share, as well. Download the project then use the html file to save a lot of 'clickin.
+
