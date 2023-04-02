@@ -1,5 +1,5 @@
 # PyQuest Collection
-# Solution to KP3006
+# Some inspiration to assist with your solution to KP3006
 # Soft9000.com
 # Group: https://www.facebook.com/PythonVideo/
 
