@@ -1,0 +1,186 @@
+*****
+KP1001: Modulus
+Create a function that can:
+
+(1) Accept an integer (input)
+(2) Detect if the value is even
+*****
+KP1002: Modulus
+Create a function that can:
+
+(1) Accept a string parameter
+(2) Detect if the length is even
+*****
+KP1003: Data Detection
+Create a function that can:
+
+(1) Accept a 'tab delimited' string
+(2) Return a tuple of tab-delimited strings
+*****
+KP2001: Getter/Setter
+Create a class that can:
+
+(1) Accept a string parameter
+(2) Return original string
+(3) Return upper case value
+(4) Return lower case value
+(5) Create test cases
+*****
+KP3001: @property
+Create a class that can:
+
+(1) Accept a string parameter
+(2) Return the `upper-cased` string
+(3) Using @property
+*****
+KP3002: Exception Management
+Create a function to detect `prime numbers`:
+
+(1) Accept an integer parameter
+(2) Return true if data is prime
+(3) Update to accept string data
+(4) Return false on error
+(5) Create test cases
+*****
+KP2002: CSV Conversion
+Create a function that can:
+
+(1) Accept a 'tab delimited' string
+(2) Return a tuple of comma-seperated values
+(3) Create test cases
+*****
+KP3003: Data Detection
+Create a function that can:
+
+(1) Accept a 'tab delimited' string
+(2) Return both:
+    (a) Tuple of comma-seperated numbers
+    (b) List of comma-seperated strings
+(3) Create test cases
+*****
+KP2003: Factorials
+Create a function to show a factorial:
+
+(1) Input: Single Integer
+(2) Input: Test for non-integers
+(3) Return: Success - True, Factorial
+(4) Return: Error   - False, -1
+(5) Provide adequate test cases
+*****
+KP2004: Number Series
+Create an inclusive number series.
+
+(1) Input: Two integers
+(2) Return: Number series, or 'none'
+(3) Detect and re-order paramerters
+(4) Verify integral input
+(5) Provide test cases
+*****
+KP1004: Area Calculation
+Calculate the area of a rectangle.
+
+(1) Input: Two numbers
+(2) Output: Area
+(3) Provide a test case
+*****
+KP1005: Rectangles
+Define a testable rectangle operation.
+
+(1) Input: Inset, length, height
+(2) Output: Inset text rectangle in an list
+(3) Do not draw the rectangle on the screen
+(4) Create a test case
+*****
+KP2005: Message Box
+Define a function to create a message box.
+
+(1) Input: Inset, message
+(2) Output: Inset, centered message in a tuple
+(3) Do not draw the rectangle on the screen
+(4) Create a test case
+*****
+KP3004: Message Box
+Define a class to create message boxes.
+
+(1) Constructor: 
+    (*) Box inset and default character
+    (*) Default inset is 10
+    (*) Default character is '*'
+(2) Input: Message to display
+(3) Output: Inset, centered message in a tuple
+(4) Do not draw the rectangle on the screen
+(5) Create a test case
+*****
+KP3005: Message Boxes
+Design a class to create message boxes.
+
+(1) msg_box(inset, msg, box='*')
+(2) get_screen()->[]
+(3) Message may be multi-line
+(4) Do not draw screen rectangle(s)
+(5) Create multi-message test cases
+(6) Verify multiline messages
+(7) Verify overlapped messages
+*****
+KP1006: Sorting Strings
+Create a function to split and sort string data.
+
+(1) Input: Arbitrary string of words
+(2) Output: Sorted list of unique words
+*****
+KP1007: CSV Strings
+Create a function to collect unique words.
+
+(1) Input: Arbitrary string of words
+(2) Output: CSV string of unique words
+*****
+KP1008: Title Strings
+Create a function to capitalize the first letter in a word. Ignore words under 3 characters in length.
+
+(1) Input: Arbitrary word string
+(2) Output: Title text
+(3) Test case:
+    (*) Input: "this is a test"
+    (*) Output: "This is a Test"
+*****
+KP1009: Uppercased Strings
+Create a function to capitalize words. 
+
+(1) Input: Arbitrary word string
+(2) Output: Capitalized words
+(3) Test case:
+    (*) Input: "this is a test"
+    (*) Output: "THIS IS A TEST"
+*****
+KP2006: Sorting Strings Tally
+Create a function to split, sort, and count string data.
+
+(1) Input: Arbitrary word string
+(2) Output: 
+    (*) Dictionary of unique words 
+    (*) Sorted by ascending tally
+(3) Test case:
+    (*) Input: "do be do be do"
+    (*) Output: {'do': 3, 'be': 2}
+*****
+KP2007: Character Counter
+Discover a sorted number of characters.
+
+(1) Input: Arbitrary string
+(2) Output: 
+    (*) Dictionary of unique characters
+    (*) Sorted by ascending tally
+(3) Test case:
+    (*) Input: "do be do be do"
+    (*) Output: {' ': 4, 'd': 3, 
+                 'o': 3, 'b': 2, 
+                 'e': 2}
+*****
+KP3006: Sine Wave Vertical
+Rasterize a sine wave into a string buffer.
+
+(1) Input: Nothing required
+(2) Output: Rasterized sine wave
+(3) Show the wave on the console
+
+
