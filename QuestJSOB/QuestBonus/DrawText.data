@@ -46,7 +46,7 @@ KP2002: CSV Conversion
 Create a function that can:
 
 (1) Accept a 'tab delimited' string
-(2) Return a tuple of comma-seperated values
+(2) Return a tuple of comma-separated values
 (3) Create test cases
 *****
 KP3003: Data Detection
@@ -54,8 +54,8 @@ Create a function that can:
 
 (1) Accept a 'tab delimited' string
 (2) Return both:
-    (a) Tuple of comma-seperated numbers
-    (b) List of comma-seperated strings
+    (a) Tuple of comma-separated numbers
+    (b) List of comma-separated strings
 (3) Create test cases
 *****
 KP2003: Factorials
@@ -72,7 +72,7 @@ Create an inclusive number series.
 
 (1) Input: Two integers
 (2) Return: Number series, or 'none'
-(3) Detect and re-order paramerters
+(3) Detect and re-order parameters
 (4) Verify integral input
 (5) Provide test cases
 *****
@@ -182,5 +182,166 @@ Rasterize a sine wave into a string buffer.
 (1) Input: Nothing required
 (2) Output: Rasterized sine wave
 (3) Show the wave on the console
+*****
+KP3007: Points & Plotting
+Plot characters into a newline-delimited display area.
 
+(1) Constructor: 
+    (*) Accept display width & height
+    (*) Default to 50 * 20 if invalid
+(2) Function plot:
+    (*) x, y, and default char='*'
+    (*) 'Wrap-around' point on overflow
+    (*) Return final point plotted
+(3) Function get_results: 
+    (*) Return displayable result
+(4) Function get_size:
+    (*) Return display width, height
+(5) Create test cases
+*****
+KP1010: Easy Logger
+Create a class to append strings to the end of a file.
 
+(1) Output should be editable by system tools
+*****
+KP2008: Pickling
+Create a class to save, delete, and read dated journal entries using a "pickle" file.
+
+(1) Use argparse to create a command-line user 
+    interface
+(2) Create extensive test cases
+*****
+KP3008: C.R.U.D Accounting
+Use Soft9000.com PyDAO to [c]reate, [r]ead, [u]pdate and [d]elete accounting entries using an Sqlite database. 
+
+(1) Use argparse to provide a command-line 
+    interface
+(2) Provide comprehensive test cases
+*****
+KP1011: R.P.N Calculator
+Create a "Reverse Polish Notation" [R.P.N] Calculator
+
+(1) Lookup the definition of "R.P.N"
+(2) Support the +, -, *, and / operations
+(3) Craft test cases to support each operation
+(4) Provide test cases for combined 
+    mathematical operations
+*****
+KP3009: Secure String
+Write a function to encode and decode a string.
+
+(1) Constructor: Provide cypher `key`
+(2) Function encode: 
+    (*) Input: The string to encode
+    (*) Output: The secured string, as 
+        combined with the cypher key
+(3) Function decode:
+    (*) Input: The secured string
+    (*) Output: The original string
+(4) Provide verification test cases
+*****
+KP3010: Generators
+Create a Generator that will emit each prime number <= a numeric input range.
+
+(1) You will use Python's `yield` keyword
+(2) Provide test cases
+*****
+KP3011: Binary Search
+Use input() to search an arbitrary set of strings
+
+(1) User data will be comma-separated
+(2) Search Function:
+   (*) Accepts string to find and CSV 
+       user input
+   (*) Data must be sorted, numbered, 
+       and displayed
+   (*) Returns number of item if found, 
+       else 0
+(3) Test cases: 
+   (*) Ensure first, middle, and last 
+       sorted-values are found
+*****
+KP1012: List of Functions
+Pass a list of functions to a function designed to call each.
+
+(1) Use a 'zoo' and 'animal' paradigm
+(2) Animals to uniquely identify themselves
+*****
+KP2009: Lambda Functions
+Pass a list of lambda functions to a function designed to call each.
+
+(1) Use a 'zoo' and 'animal' paradigm
+(2) Animals to uniquely identify themselves
+*****
+KP3012: Framework Classes
+Pass a list of classes to a framework designed to manage each. 
+
+(1) Do not use the `abc` Module
+(2) Discreet operations include "eat," 
+    "speak," and "run."
+(3) Framework operations: "on eat," 
+    "on speak," and "on run."
+(4) Test cases exercise each operation
+*****
+KP3013: The `abc` Module
+Pass a list of classes to a framework designed to manage each. 
+
+(1) Use the `abc` Module
+(2) Discreet operations include "eat," 
+    "speak," and "run."
+(3) Framework operations: "on eat," 
+    "on speak," and "on run."
+(4) Test cases exercise each operation
+*****
+KP2010: 3D Arrays
+Create and populate a 3-dimensional array
+
+(1) Array size is 3 x 3 x 6
+(2) Collected elements begin at 10
+(*) array[0][1][2] == 15
+(*) array[1][1][1] == 23
+(*) array[2][1][0] == 31
+(*) array[5][2][2] == 63
+*****
+KP2011: Exception Management
+Demonstrate your ability to create and manage exceptions.
+
+(1) Manage: ZeroDivisionError
+(2) Create: MyCustomException
+(3) Use all exception-related keywords
+*****
+KP3014: Regular Expressions
+Use a Regular Expression to locate dotted-name, .com, email addresses.
+
+(1) Pattern: first.last@mysite.com
+(2) Mask: "(\w+\.\w+)@((\w+)\.com)"
+*****
+KP2012: Input, Looping & Evaluations
+Use input() and eval() to create a Python expression evaluator.
+
+(1) Program will loop until "quit()" is evaluated. 
+*****
+KP2013: Random Ranges
+Create a class to generate a random number between two integers.
+
+(1) Class to contain three (3) public functions
+(2) Use input(f1) to parse(f2) two CSV parameters
+(3) Prameters(f3) may be invalid or un-ordered
+(4) Each function returns (bool, number_result)
+(5) Error returns: (False, -1)
+*****
+KP2014: Using map()
+Create a map() that uses a lambda function to generate a ranged list of numbers and their cubed value.
+
+(1) Input: Integral start & stop range
+(2) Processing: Use map() and lambda
+(3) Output: 
+    (*) [(number, number^3), ...]
+    (*) [] on error
+(4) Create test cases
+*****
+KP3015: Using filter()
+Use filter() range() and lambda to display numbers divisible by 3.
+
+(1) Input: Numbers from 3 to 23
+(2) Output: 3 6 9 12 15 18 21
