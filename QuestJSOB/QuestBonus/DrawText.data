@@ -258,8 +258,8 @@ Use input() to search an arbitrary set of strings
    (*) Returns number of item if found, 
        else 0
 (3) Test cases: 
-   (*) Ensure first, middle, and last 
-       sorted-values are found
+   (*) Ensure first, middle, and 
+       last sorted-values are found
 *****
 KP1012: List of Functions
 Pass a list of functions to a function designed to call each.
@@ -331,7 +331,7 @@ Create a class to generate a random number between two integers.
 (5) Error returns: (False, -1)
 *****
 KP2014: Using map()
-Create a map() that uses a lambda function to generate a ranged list of numbers and their cubed value.
+Encode a map() operation that uses a lambda function to generate a ranged list of numbers and their cubed value.
 
 (1) Input: Integral start & stop range
 (2) Processing: Use map() and lambda
@@ -345,3 +345,139 @@ Use filter() range() and lambda to display numbers divisible by 3.
 
 (1) Input: Numbers from 3 to 23
 (2) Output: 3 6 9 12 15 18 21
+*****
+KP3016: Filtered Mapping
+Use filter(), map(), range() and lambda to cube values between 3 and 103 that are neither divisible by 2 nor 3.
+
+(*) Input: Integers from 3 to 103, inclusive
+(*) Processing: Integers not divisible by 2 or 
+    3, cubed
+(*) Results: [5, 15] [7, 21] [11, 33] ...
+*****
+KP2015: Grid Comprehension
+Demonstrate a list comprehension to create a 3 x 4 x 5 grid. 
+
+(1) Fill each element in the array with -1
+(2) Newline each row in the list upon the 
+    screen
+(3) Seperate each line (4 rows) using another 
+    newline
+*****
+KP1013: Unique Set
+Display the unique characters between "I think therefore I am" and "I think therefore I can"
+
+(1) Use set()
+*****
+KP2016: Venn Operations
+Display characters relationships between "I think", "therefore I can", and "you can"
+
+(1) Use set()
+(2) Show Intersection a->b->c and c->b->a
+(3) Show Difference a->b->c and c->b->a
+(4) Show Union
+*****
+KP1014: Joining Strings
+Use the string class .join() member to create a numeric field of CSV values.
+
+(1) Input: n = range(3,31) where n % 3 == 0
+(2) Output: '3,6,9,12,15,18,21,24,27,30'
+(3) Bonus: Use a list comprehension
+*****
+KP1015: Parsing Strings
+Parse a numeric field of CSV values into a tuple.
+
+(1) Input: '3,6,9,12,15,18,21,24,27,30'
+(2) Output: tuple(3,6,9,12,15,18,21,24,27,30)
+*****
+KP3017: Number Detection
+Craft a function that parses a field of CVS values, returning a tuple of any non-numeric values.
+
+(1) Input: A CSV list of strings, integers, 
+    and monetary values
+(2) Output: Tuple of any non-numeric values
+(3) Error: Return an empty tuple
+(4) Test case to include: 
+    (*) Parsing each data type
+    (*) Success, as well as errors
+*****
+KP3018: Menu System
+Write an application loop that runs functions based upon input() values. 
+
+(*) Use the C.R.U.D design pattern 
+(*) Be sure to include a way to exit the loop
+(*) Bonus: Use lambda functions
+(*) Create test cases
+*****
+KP3019: State Machine
+Demonstrate a state machine that runs dynamically changing functions based upon user input() values. 
+
+(*) Use the C.R.U.D design pattern 
+(*) Be sure to include a way to exit the loop
+(*) Bonus: Use lambda functions
+*****
+KP2017: TDF Data
+Parse a Docstring containing a list of 10 rows of tab-delimited values into a list of lists.
+
+(1) Rows to include full user names, 
+    ages, emails, as well as monetary values
+(2) Verify success via test case
+*****
+KP2018: Sorting Length
+Use input() to pass a CSV string to your function to separate and sort values by length.
+
+(1) Input: String of arbitrary CSV values
+(2) Output: 
+    (*) List of length-sorted fields
+    (*) Include an option to use either an 
+        ascending, or a descending, order
+*****
+KP3020: Roman Dates
+Create a function to convert years into Roman Numbers.
+
+(1) Input: 1900 - 2021, inclusive
+(2) Output: A list of Roman numericals
+(3) Error: Return `None`
+(4) Create test case
+(*) Bonus: Use recursion
+(*) (Yes, you can "google it" ;-)
+*****
+KP3021: Roman Date Parser
+Create a function to convert a Roman Number.
+
+(1) Input: A Roman Number
+(2) Output: Integral Result
+(3) Error: Return -1
+(4) Create test cases for 1900 - 2021, inclusive
+*****
+KP2019: Slicing
+Create a function to return the first and last 3 characters from a string.
+
+(1) Use input() to gather data dynamically
+(2) Return `None` on input underflow / error
+(3) Create test cases
+*****
+KP2020: Data Detection
+Create a function to separate a list of numbers into even & odd values.
+
+(1) Input: A list of integers
+(2) Output: Two lists 
+    First even, second odd, values
+(3) Create test cases
+*****
+KP1016: Numerical Sums
+Create a function that summs a list of numerical values
+
+(1) Input: 
+    (*) Integer and monetary values
+    (*) Positive and negative values
+(2) Output: The accumulated total
+(3) Create test cases
+*****
+KP3022: Polymorphism
+Encode an abstract shape class designed to report shape size. Create a function to calculate the area of a list of shapes.
+
+(1) Input: To include square, triangle, 
+    circle, and rectangle shapes
+(2) Output: Total area, else zero on 
+    error
+(3) Create test cases
