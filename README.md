@@ -23,13 +23,6 @@ Updated to 100 Q&A case studies the latest edition of **Python Interview Questio
 
 - [100 Python Questions](https://www.amazon.com/dp/B0BH97W78F)
 
-
-# zExample
-![Sample Question](https://github.com/Python3-Training/PyQuest/blob/main/QuestJSOB/Images/2020_10_08_KA9001.png)
-
-# zAnswer
-![Sample Answer](https://github.com/Python3-Training/PyQuest/blob/main/QuestJSOB/KASeries/KA9000/KA9001.pdf)
-
 # zFree PyQuest Cards
 Looking for that free 'Pythoneer card deck?
 
@@ -37,9 +30,14 @@ Then here 'be (Tampa Bay "pirate speak") zCollection of [PyQuest](https://www.fa
 
 First, enjoy our basic 100 [PyQuest Core Cards](https://github.com/Python3-Training/PyQuest/tree/main/QuestJSOB/QuestCore).
 
-Be sure to enjoy our "bonus" huge collection of [PyQuest Project Cards](https://github.com/Python3-Training/PyQuest/tree/main/QuestJSOB/QuestProjects) as well!
+Be sure to enjoy our huge collection of [PyQuest Project Cards](https://github.com/Python3-Training/PyQuest/tree/main/QuestJSOB/QuestProjects) as well!
+
+You may have also watched a video or seen an indepentant concept demonstrated? If so, then [PyQuest Bonus Cards](https://github.com/Python3-Training/PyQuest/tree/main/QuestJSOB/QuestBonus) might be what you're looking for ...
 
 ## zSupport?
 If you want to support the effort, I seek no donations. Instead, simply feel free to purchase one of [my educational](https://www.udemy.com/user/randallnagy2/) or [printed](https://www.amazon.com/Randall-Nagy/e/B08ZJLH1VN?ref=sr_ntt_srch_lnk_1&qid=1660050704&sr=8-1) productions?
 
-[more...](https://github.com/Python3-Training/PyQuest/tree/main/QuestJSOB/KASeries/KA9000)
+Happy 'Pythoneering!
+
+-- [Randall](http://soft9000.com)
+
