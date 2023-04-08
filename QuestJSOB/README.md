@@ -4,10 +4,6 @@ The mission is to use ANY TEXT EDITOR to manage / spell check an eval()uatable c
 
 Getting started: https://youtu.be/qBsSf2DIFLs
 
-The sub-mission of the project is to ALSO uniquely identify - as well as to encode - each and every Quest()ion to better support planetary information sharing.
-QuestJSOB/README.md
-- We are also sharing the work-in-progress. An set of K-Questions, Answers, & Code that 'Pythoneers can use to better prepare for professional exams & interviews [in this folder](https://github.com/Python3-Training/PyQuest/tree/master/QuestJSOB/KASeries/KA9000)
-
 - 2020/11/21: The [first book](https://www.amazon.com/dp/B08NYZ99PS) is designed for advanced Pythoneers. Kindle & paperback book is now on Amazon.
 - 2020/11/26: The [second book](https://www.amazon.com/dp/B08P7JYG1R) is designed for 'functional' Pythoneers. Kindle & paperback book is also now on Amazon.
 
@@ -51,25 +47,26 @@ How to use this code to collect, and reliably share, questions & answers: https:
 
 Original mission: https://www.youtube.com/watch?v=HIDW7Q2r24g
 
-## Something to collect:
-
-![GID: KA3001](./Images/2020_10_13_KA3001.png)
-
-BEGIN_BLOCK$
-0y123|0y39|0y73|0y68|0y39|0y58|0y32|0y49|0y55|0y57|0y44|0y32|0y39|0y75|0y73$0y68|0y39|0y58|0y32|0y39|0y116|0y98|0y100|0y39|0y44|0y32|0y39|0y71|0y73|0y68$0y39|0y58|0y32|0y39|0y75|0y65|0y51|0y48|0y48|0y49|0y39|0y44|0y32|0y39|0y100$0y105|0y102|0y102|0y105|0y99|0y117|0y108|0y116|0y121|0y39|0y58|0y32|0y39|0y97|0y100$0y118|0y97|0y110|0y99|0y101|0y100|0y39|0y44|0y32|0y39|0y97|0y115|0y115|0y111|0y99$0y105|0y97|0y116|0y105|0y111|0y110|0y39|0y58|0y32|0y39|0y95|0y102|0y117|0y110|0y99$0y116|0y105|0y111|0y110|0y115|0y124|0y95|0y112|0y97|0y114|0y97|0y109|0y101|0y116|0y101$0y114|0y115|0y124|0y95|0y111|0y112|0y101|0y114|0y97|0y116|0y111|0y114|0y115|0y124|0y95$0y110|0y116|0y115|0y39|0y44|0y32|0y39|0y115|0y116|0y97|0y116|0y117|0y115|0y39|0y58$0y32|0y39|0y103|0y116|0y103|0y39|0y44|0y32|0y39|0y113|0y117|0y101|0y115|0y116|0y105$0y111|0y110|0y39|0y58|0y32|0y34|0y87|0y104|0y97|0y116|0y32|0y119|0y105|0y108|0y108$0y32|0y119|0y101|0y32|0y115|0y101|0y101|0y63|0y92|0y92|0y611|0y615|0y92|0y92|0y611$0y615|0y100|0y101|0y102|0y32|0y102|0y117|0y110|0y49|0y40|0y111|0y110|0y101|0y44|0y32$0y42|0y97|0y114|0y103|0y115|0y44|0y32|0y42|0y42|0y107|0y119|0y97|0y114|0y103|0y115$0y41|0y58|0y92|0y92|0y611|0y32|0y32|0y32|0y32|0y32|0y32|0y32|0y32|0y112|0y114$0y105|0y110|0y116|0y40|0y111|0y110|0y101|0y44|0y32|0y42|0y97|0y114|0y103|0y115|0y44$0y32|0y42|0y42|0y107|0y119|0y97|0y114|0y103|0y115|0y39|0y41|0y92|0y92|0y611|0y615$0y92|0y92|0y611|0y615|0y102|0y117|0y110|0y49|0y40|0y39|0y122|0y80|0y97|0y114|0y97$0y109|0y39|0y44|0y32|0y39|0y97|0y39|0y44|0y39|0y98|0y39|0y44|0y32|0y99|0y61$0y51|0y44|0y32|0y100|0y61|0y52|0y41|0y34|0y44|0y32|0y39|0y97|0y110|0y115|0y119$0y101|0y114|0y39|0y58|0y32|0y34|0y92|0y92|0y611|0y615|0y91|0y49|0y93|0y32|0y65$0y110|0y32|0y101|0y114|0y114|0y111|0y114|0y46|0y32|0y92|0y92|0y611|0y615|0y40|0y50$0y41|0y32|0y122|0y80|0y97|0y114|0y97|0y109|0y32|0y97|0y32|0y98|0y32|0y123|0y39$0y99|0y39|0y58|0y32|0y51|0y44|0y32|0y39|0y100|0y39|0y58|0y32|0y52|0y125|0y32$0y92|0y92|0y611|0y615|0y40|0y51|0y41|0y32|0y122|0y80|0y97|0y114|0y97|0y109|0y32$0y97|0y32|0y98|0y32|0y39|0y99|0y39|0y58|0y32|0y51|0y44|0y32|0y39|0y100|0y39$0y58|0y32|0y52|0y32|0y92|0y92|0y611|0y615|0y40|0y52|0y41|0y32|0y122|0y80|0y97$0y114|0y97|0y109|0y32|0y97|0y44|0y32|0y98|0y44|0y32|0y39|0y99|0y39|0y58|0y32$0y51|0y44|0y32|0y39|0y100|0y39|0y58|0y32|0y52|0y32|0y92|0y92|0y611|0y615|0y40$0y53|0y41|0y32|0y78|0y111|0y110|0y101|0y32|0y111|0y102|0y32|0y116|0y104|0y101|0y32$0y97|0y98|0y111|0y118|0y101|0y46|0y92|0y92|0y611|0y615|0y34|0y125|
-$END_BLOCK
-
 ## zGroups
 You might also want to bookmark the new [author's page on Amazon](https://www.amazon.com/Randall-Nagy/e/B08ZJLH1VN).
 
-Finally, here are the links to both my personal [python product group](https://www.facebook.com/groups/nagyspythontraining) and our **20,000** member-strong ['Pythoneering group](https://www.facebook.com/groups/Python3Training). 
+Here are the links to both my personal [python product group](https://www.facebook.com/groups/nagyspythontraining) and our **20,000** member-strong ['Pythoneering group](https://www.facebook.com/groups/Python3Training). 
 
-Happy Weekends,
+# zFree PyQuest Cards
+Looking for that free 'Pythoneer card deck?
 
---Randall
+Then here 'be (Tampa Bay "pirate speak") zCollection of [PyQuest](https://www.facebook.com/PythonVideo) game cards:
+
+First, enjoy our basic 100 [PyQuest Core Cards](https://github.com/Python3-Training/PyQuest/tree/main/QuestJSOB/QuestCore).
+
+Be sure to enjoy our huge collection of [PyQuest Project Cards](https://github.com/Python3-Training/PyQuest/tree/main/QuestJSOB/QuestProjects) as well!
+
+You may have also watched a video or seen an indepentant concept demonstrated? If so, then [PyQuest Bonus Cards](https://github.com/Python3-Training/PyQuest/tree/main/QuestJSOB/QuestBonus) might be what you're looking for ...
 
 ## zSupport?
 If you want to support the effort, I seek no donations. Instead, simply feel free to purchase one of [my educational](https://www.udemy.com/user/randallnagy2/) or [printed](https://www.amazon.com/Randall-Nagy/e/B08ZJLH1VN?ref=sr_ntt_srch_lnk_1&qid=1660050704&sr=8-1) productions?
 
-p.s. We've a new set of [project cards](https://github.com/Python3-Training/PyQuest/tree/8b5cdf78625209db537cac4973d93876ef02345d/QuestJSOB/KP_Series) to share, as well. Download the project then use the html file to save a lot of 'clickin.
+Happy 'Pythoneering!
+
+-- [Randall](http://soft9000.com)
 
