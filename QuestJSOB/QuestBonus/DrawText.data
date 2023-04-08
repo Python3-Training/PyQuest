@@ -326,7 +326,7 @@ Create a class to generate a random number between two integers.
 
 (1) Class to contain three (3) public functions
 (2) Use input(f1) to parse(f2) two CSV parameters
-(3) Prameters(f3) may be invalid or un-ordered
+(3) Parameters(f3) may be invalid or un-ordered
 (4) Each function returns (bool, number_result)
 (5) Error returns: (False, -1)
 *****
@@ -360,13 +360,13 @@ Demonstrate a list comprehension to create a 3 x 4 x 5 grid.
 (1) Fill each element in the array with -1
 (2) Newline each row in the list upon the 
     screen
-(3) Seperate each line (4 rows) using another 
+(3) Separate each line (4 rows) using another 
     newline
 *****
 KP1013: Unique Set
 Display the unique characters between "I think therefore I am" and "I think therefore I can"
 
-(1) Use set()
+(*) Use set()
 *****
 KP2016: Venn Operations
 Display characters relationships between "I think", "therefore I can", and "you can"
@@ -447,16 +447,17 @@ Create a function to convert a Roman Number.
 (1) Input: A Roman Number
 (2) Output: Integral Result
 (3) Error: Return -1
-(4) Create test cases for 1900 - 2021, inclusive
+(4) Create test cases for 1900 - 2021, 
+    	inclusive
 *****
 KP2019: Slicing
-Create a function to return the first and last 3 characters from a string.
+Create a function to return the first and last 3 characters of a string.
 
 (1) Use input() to gather data dynamically
 (2) Return `None` on input underflow / error
 (3) Create test cases
 *****
-KP2020: Data Detection
+KP2020: Even Odd Detection
 Create a function to separate a list of numbers into even & odd values.
 
 (1) Input: A list of integers
@@ -465,7 +466,7 @@ Create a function to separate a list of numbers into even & odd values.
 (3) Create test cases
 *****
 KP1016: Numerical Sums
-Create a function that summs a list of numerical values
+Create a function that sums a list of numerical values
 
 (1) Input: 
     (*) Integer and monetary values
@@ -481,3 +482,168 @@ Encode an abstract shape class designed to report shape size. Create a function 
 (2) Output: Total area, else zero on 
     error
 (3) Create test cases
+*****
+KP2021: Data Representations
+Create a class to convert strings between binary, hexadecimal, and octal formats.
+
+(*) Processing: 
+    (*) Create static member functions
+    (*) Provide both to_ & from_ `hex`, `bin`, 
+        and `oct` member functions
+*****
+KP2022: Binary Calculations
+Create a class to show the result of common binary operations.
+
+(1) Input: Binary String
+(2) Output: Binary String
+(3) Processing: add, subtract, 'or', and 'xor'
+(4) Integral conversion is not required
+(5) Create test cases
+*****
+KP2023: CSV Roundtrip
+Create an application to exchange Python data collections using CSV files.
+
+(1) Use the Python's CSV Module
+(2) Collections to include integer, monetary, 
+    boolean, as well as string values
+(3) CSV data to be imported then exported
+(4) Create test case
+*****
+KP2024: Word Tally
+Save the text version of Leviathan from Project Gutenberg to a file. Display the ten most, and least -used words.
+
+(1) Input: 
+    (*) https://www.gutenberg.org/files/3207
+(2) Processing: Skip words < 5 characters long
+(3) Bonus: How many times is 'Leviathan' used?
+(*) Book Author: Thomas Hobbes
+*****
+KP3023: Web Scraping
+Dynamically access the text version of Leviathan from Project Gutenberg. Display the ten most, and least -used words.
+
+(1) Input: http://www.gutenberg.org/files/3207
+(2) Processing: Skip words < 5 characters long
+(3) Bonus: How many times is 'Leviathan' used?
+(*) Book Author: Thomas Hobbes
+*****
+KP3024: Distance Calculations
+Create a class to capture movement around a point of origin. Return the integral distance traveled from the origin after each movement.
+
+(1) Constructor: Origin (x,y)
+(2) Processing: 
+    (*) go_ N, S, E, W
+    (*) Input: Movement (integer)
+    (*) Return: Distance from origin
+(3) Hint: a2 + b2 = c2
+*****
+KP1017: Doctest
+Create a function to count the vowels in an input string. Create a "Doctest" to test the same.
+
+(1) Input: Use the input() function
+(2) Output: A descending, sorted dictionary
+    for the number of vowels found
+*****
+KP2025: Built In Functions
+Create a sorted dictionary of Python's built-in functions. Include the first 30 Docstring characters.
+
+(1) Exclude mixed-case names
+(2) Exclude `Dunder Names`
+(3) Output Example: 
+   "{'abs': 'Return the [... 30]', ...}"
+*****
+KP3025: Built In Words
+Find the most, and the least used 10 words (20 words total) by all built-in function Docstrings.
+
+(1) Input: Docstrings from the Built-ins 
+    Module functions
+(2) Processing: Ignore words < 4 characters 
+    long
+(3) Output: The 10 most, and the 10 least
+    used words
+*****
+KP1018: Random Float
+Generate a random floating point value between 10 and 100.
+
+(*) Use Python's `random` Module
+*****
+KP1019: Random Choice
+Choose a random entry from a populated integral sequence.
+  
+(*) Use Python's `random` Module
+*****
+KP1020: Dict Conversion
+Convert a dict() to a list(), then back to a dict() once again.
+
+(*) Source: {'a': 1, 'b': 2}
+*****
+KP1021: Reversals
+Reverse the content of a string and a tuple using the same notation.
+
+(*) Hint: Use slicing
+*****
+KP1022: Permutation
+Print all possible permutations of your last name.
+
+(*) Hint: Use the `itertools` Module
+*****
+KP1023: Set Intersect
+Print any common characters found in your first and last name.
+
+(1) Input: Use input() to provide two strings
+(2) Processing: Loop until 'quit' is entered
+(3) Processing: Split & compare the strings
+(4) Output: A list of common characters
+(*) Hint: Use set()
+*****
+KP1024: Dup Removal
+Remove common characters from a sorted input string.
+
+(1) Input: Use input() to provide the string
+(2) Output: Sorted list of unique characters
+(3) Processing: Loop until 'quit' is entered
+*****
+KP1025: Timed Processing
+Write a program that will pause for 2 seconds while iterating through any input string.
+
+(1) Input: Use input() to provide the string
+(2) Output: List of pause-printed characters
+(3) Processing: Loop until 'quit' is entered
+*****
+KP3026: Object Construction
+Demonstrate class initialization using __init_, @classmethod and @staticmethod. Each to populate said class differently.
+
+(*) __init__: Empty class
+(*) @classmethod: Populate using *args.
+(*) @staticmethod: Populate using **kwargs
+*****
+KP2026: Host Address
+If you've a network, display your computer's name and IP Address.
+
+(*) Hint: Use Python's `socket` Module
+*****
+KP3027: Datagram
+If you've a network, broadcast and receive a message from yourself.
+
+(1) Hints:
+    (*) Use Python's `socket` Module
+    (*) Use SOC_DGRAM
+(2) You can study an online example
+*****
+KP3028: TCP Message
+If you've a network, connect, send, and respond to a message from yourself.
+
+(1) Hints:
+    (*) Use Python's `socket` Module
+    (*) Use SOC_STREAM
+(2) You can review an online example
+*****
+KP3029: GUI Dictionary
+Use Tkinter to edit a dictionary. 
+
+(1) Input: Dictionary of key-value pairs
+(2) Processing:
+    (*) Dictionary keys describe values
+    (*) Existing values are editable
+    (*) [Okay] button updates dictionary
+    (*) [Cancel] button ignores changes
+(3) Output: Updated dictionary or `None`

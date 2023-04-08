@@ -1,14 +1,21 @@
-#PyQuest Core
+#PyQuest Bonus
 
-Here are 100 flash cards for you to enjoy! Feel free to print them, 
-share them, or simply collect your 'fav...
+Here are some projects cards for you to enjoy. -One great way to practice becomming proficient in Python!
 
-You can also [order these cards online](https://www.amazon.com/100-PyQuest-Cards-Randall-Nagy/dp/B0BZF8VHDJ/).
+Part of a long-term game play, feel free to assign higher point values for an in-class - and / or weekly - competition. 
 
-Also - if you need some help and / or want to see 
-the code, please note that the a book will be on the 'zon soom, as well!
+Also yes, a book - complete with code - is presently in the works. In the mean time, I am sharing the solutions to these projects with our [PyQuest group](https://www.facebook.com/PythonVideo) on Facebook.
 
-Looking forward to seeing you in the professional software development world!
+In the mean time feel free to encourage us to in this effort by [ordering the basic set of cards online](https://www.amazon.com/100-PyQuest-Cards-Randall-Nagy/dp/B0BZF8VHDJ/).
 
--- Randall
+Finally, if you are short on cash - or event if you're not ;-) - another way to support this effort would be to [join the PyQuest team on Facebook](https://www.facebook.com/PythonVideo). 
+
+I also share much of my Pythoneering activities in the [Python Training Group](https://www.facebook.com/groups/nagyspythontraining) as well.
+
+Clearly then, I am indeed looking forward to seeing you in the professional software development world?
+
+
+Happy 'Pythoneering,
+
+-- [Randall](http://www.soft9000.com)
 
