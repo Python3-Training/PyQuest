@@ -4,8 +4,7 @@ The mission is to use ANY TEXT EDITOR to manage / spell check an eval()uatable c
 
 Getting started: https://youtu.be/qBsSf2DIFLs
 
-- 2020/11/21: The [first book](https://www.amazon.com/dp/B08NYZ99PS) is designed for advanced Pythoneers. Kindle & paperback book is now on Amazon.
-- 2020/11/26: The [second book](https://www.amazon.com/dp/B08P7JYG1R) is designed for 'functional' Pythoneers. Kindle & paperback book is also now on Amazon.
+Here is the ['Zon store](https://www.amazon.com/stores/Randall-Nagy/author/B08ZJLH1VN).
 
 To get started collecting and / or managing your, mine, or our gobally-unique questions, simply run the GUI (below) and create a **[New]** project.
 
