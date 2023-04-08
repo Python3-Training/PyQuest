@@ -6,7 +6,7 @@ The cards here are neither yet part of the [PyQuest Core](https://github.com/Pyt
 Cards prefixed by "KV" are part of an ongoing video quest.
 
 ## Concept Quests
-Cards prefixed by "KA" herein are mostly part of an ongoing quest to demonstrate selected concepts (etc.)
+Cards prefixed by "K0" herein are mostly part of an ongoing quest to demonstrate selected concepts (etc.)
 
 
 Happy 'Pythoneering,
