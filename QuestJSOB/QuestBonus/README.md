@@ -1,13 +1,14 @@
-# PyQuest Bonus
+# Bonus PyQuest Cards
 
-One great way to practice becomming proficient in Python here are some PROJECT practice cards for you to enjoy!
+The cards here are neither yet part of the [PyQuest Core](https://github.com/Python3-Training/PyQuest/tree/main/QuestJSOB/QuestCore), nor the [Pyquest Projects](https://github.com/Python3-Training/PyQuest/tree/main/QuestJSOB/QuestProjects) Decks. 
 
-The PyQuest Project cards are presently part of the [QuestProjects](https://github.com/Python3-Training/PyQuest/tree/main/QuestJSOB/QuestProjects) folder.
+## Video Quests
+Cards prefixed by "KV" are part of an ongoing video quest.
+
+## Concept Quests
+Cards prefixed by "KA" herein are mostly part of an ongoing quest to demonstrate selected concepts (etc.)
 
 
 Happy 'Pythoneering,
 
 -- [Randall](http://www.soft9000.com)
-
-
-
