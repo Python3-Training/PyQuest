@@ -3,7 +3,7 @@
 
 ![Pyquest Logo](PyQuest_Logo.png)
 
-*PyQuest **was** originally part of my **[DatMan](https://github.com/Python3-Training/DatMan/blob/master/LICENSE)** Project. Shared on the 'Hub on Jul 9, 2020, that was years ago.*
+*Shared on the 'Hub on July 9, 2020, PyQuest **was** originally part of my **[DatMan](https://github.com/Python3-Training/DatMan/blob/master/LICENSE)** Project.*
 
 *Everything related to the question and answer database application is now here!*
 
