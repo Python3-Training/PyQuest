@@ -15,7 +15,7 @@ KP1003: Data Detection
 Create a function that can:
 
 (1) Accept a 'tab delimited' string
-(2) Return a tuple of tab-delimited strings
+(2) Return a tuple of strings
 *****
 KP2001: Getter/Setter
 Create a class that can:
@@ -42,20 +42,18 @@ Create a function to detect `prime numbers`:
 (4) Return false on error
 (5) Create test cases
 *****
-KP2002: CSV Conversion
+KP2002: Parsing Strings
 Create a function that can:
 
 (1) Accept a 'tab delimited' string
-(2) Return a tuple of comma-separated values
+(2) Return a tuple of strings
 (3) Create test cases
 *****
 KP3003: Data Detection
 Create a function that can:
 
 (1) Accept a 'tab delimited' string
-(2) Return both:
-    (a) Tuple of comma-separated numbers
-    (b) List of comma-separated strings
+(2) Return a tuple of values found
 (3) Create test cases
 *****
 KP2003: Factorials
@@ -68,13 +66,15 @@ Create a function to show a factorial:
 (5) Provide adequate test cases
 *****
 KP2004: Number Series
-Create an inclusive number series.
+Create a function to create an inclusive number series.
 
 (1) Input: Two integers
-(2) Return: Number series, or 'none'
-(3) Detect and re-order parameters
-(4) Verify integral input
-(5) Provide test cases
+(2) Processing: 
+(*)   Verify input data types
+(*)   Order enumeration range (min->max)
+(3) Return: Numerical interation 
+      else 'None'
+(4) Provide test cases
 *****
 KP1004: Area Calculation
 Calculate the area of a rectangle.
@@ -647,3 +647,19 @@ Use Tkinter to edit a dictionary.
     (*) [Okay] button updates dictionary
     (*) [Cancel] button ignores changes
 (3) Output: Updated dictionary or `None`
+*****
+KP3030: Class Destruction
+Create, initialize, and use a class so as to demonstrate class destruction.
+
+(*) Create test cases
+*****
+KP2028: Class Data
+Demonstrate how to discover and show class data members.
+(1) Technique must work for any class
+(2) Public data members, only
+(3) Create a test case
+*****
+KP3031: Immutable Data
+Create and initialize a class so as to disable data changes.
+
+(*) Create test cases
