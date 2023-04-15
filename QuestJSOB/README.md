@@ -56,11 +56,11 @@ Looking for that free 'Pythoneer card deck?
 
 Then here 'be (Tampa Bay "pirate speak") zCollection of [PyQuest](https://www.facebook.com/PythonVideo) game cards:
 
-First, enjoy our basic 100 [PyQuest Core Cards](https://github.com/Python3-Training/PyQuest/tree/main/QuestJSOB/QuestCore).
+First, enjoy our basic 100 [PyQuest Core Cards](https://github.com/Python3-Training/PyQuest/tree/main/CardGame/QuestCore).
 
-Be sure to enjoy our huge collection of [PyQuest Project Cards](https://github.com/Python3-Training/PyQuest/tree/main/QuestJSOB/QuestProjects) as well!
+Be sure to enjoy our huge collection of [PyQuest Project Cards](https://github.com/Python3-Training/PyQuest/tree/main/CardGame/QuestProjects) as well!
 
-You may have also watched a video or seen an indepentant concept demonstrated? If so, then [PyQuest Bonus Cards](https://github.com/Python3-Training/PyQuest/tree/main/QuestJSOB/QuestBonus) might be what you're looking for ...
+You may have also watched a video or seen an indepentant concept demonstrated? If so, then [PyQuest Bonus Cards](https://github.com/Python3-Training/PyQuest/tree/main/CardGame/QuestBonus) might be what you're looking for ...
 
 ## zSupport?
 If you want to support the effort, I seek no donations. Instead, simply feel free to purchase one of [my educational](https://www.udemy.com/user/randallnagy2/) or [printed](https://www.amazon.com/Randall-Nagy/e/B08ZJLH1VN?ref=sr_ntt_srch_lnk_1&qid=1660050704&sr=8-1) productions?
