@@ -1,0 +1,649 @@
+*****
+KP1001: Modulus
+Create a function that can:
+
+(1) Accept an integer (input)
+(2) Detect if the value is even
+*****
+KP1002: Modulus
+Create a function that can:
+
+(1) Accept a string parameter
+(2) Detect if the length is even
+*****
+KP1003: Data Detection
+Create a function that can:
+
+(1) Accept a 'tab delimited' string
+(2) Return a tuple of tab-delimited strings
+*****
+KP2001: Getter/Setter
+Create a class that can:
+
+(1) Accept a string parameter
+(2) Return original string
+(3) Return upper case value
+(4) Return lower case value
+(5) Create test cases
+*****
+KP3001: @property
+Create a class that can:
+
+(1) Accept a string parameter
+(2) Return the `upper-cased` string
+(3) Using @property
+*****
+KP3002: Exception Management
+Create a function to detect `prime numbers`:
+
+(1) Accept an integer parameter
+(2) Return true if data is prime
+(3) Update to accept string data
+(4) Return false on error
+(5) Create test cases
+*****
+KP2002: CSV Conversion
+Create a function that can:
+
+(1) Accept a 'tab delimited' string
+(2) Return a tuple of comma-separated values
+(3) Create test cases
+*****
+KP3003: Data Detection
+Create a function that can:
+
+(1) Accept a 'tab delimited' string
+(2) Return both:
+    (a) Tuple of comma-separated numbers
+    (b) List of comma-separated strings
+(3) Create test cases
+*****
+KP2003: Factorials
+Create a function to show a factorial:
+
+(1) Input: Single Integer
+(2) Input: Test for non-integers
+(3) Return: Success - True, Factorial
+(4) Return: Error   - False, -1
+(5) Provide adequate test cases
+*****
+KP2004: Number Series
+Create an inclusive number series.
+
+(1) Input: Two integers
+(2) Return: Number series, or 'none'
+(3) Detect and re-order parameters
+(4) Verify integral input
+(5) Provide test cases
+*****
+KP1004: Area Calculation
+Calculate the area of a rectangle.
+
+(1) Input: Two numbers
+(2) Output: Area
+(3) Provide a test case
+*****
+KP1005: Rectangles
+Define a testable rectangle operation.
+
+(1) Input: Inset, length, height
+(2) Output: Inset text rectangle in an list
+(3) Do not draw the rectangle on the screen
+(4) Create a test case
+*****
+KP2005: Message Box
+Define a function to create a message box.
+
+(1) Input: Inset, message
+(2) Output: Inset, centered message in a tuple
+(3) Do not draw the rectangle on the screen
+(4) Create a test case
+*****
+KP3004: Message Box
+Define a class to create message boxes.
+
+(1) Constructor: 
+    (*) Box inset and default character
+    (*) Default inset is 10
+    (*) Default character is '*'
+(2) Input: Message to display
+(3) Output: Inset, centered message in a tuple
+(4) Do not draw the rectangle on the screen
+(5) Create a test case
+*****
+KP3005: Message Boxes
+Design a class to create message boxes.
+
+(1) msg_box(inset, msg, box='*')
+(2) get_screen()->[]
+(3) Message may be multi-line
+(4) Do not draw screen rectangle(s)
+(5) Create multi-message test cases
+(6) Verify multiline messages
+(7) Verify overlapped messages
+*****
+KP1006: Sorting Strings
+Create a function to split and sort string data.
+
+(1) Input: Arbitrary string of words
+(2) Output: Sorted list of unique words
+*****
+KP1007: CSV Strings
+Create a function to collect unique words.
+
+(1) Input: Arbitrary string of words
+(2) Output: CSV string of unique words
+*****
+KP1008: Title Strings
+Create a function to capitalize the first letter in a word. Ignore words under 3 characters in length.
+
+(1) Input: Arbitrary word string
+(2) Output: Title text
+(3) Test case:
+    (*) Input: "this is a test"
+    (*) Output: "This is a Test"
+*****
+KP1009: Uppercased Strings
+Create a function to capitalize words. 
+
+(1) Input: Arbitrary word string
+(2) Output: Capitalized words
+(3) Test case:
+    (*) Input: "this is a test"
+    (*) Output: "THIS IS A TEST"
+*****
+KP2006: Sorting Strings Tally
+Create a function to split, sort, and count string data.
+
+(1) Input: Arbitrary word string
+(2) Output: 
+    (*) Dictionary of unique words 
+    (*) Sorted by ascending tally
+(3) Test case:
+    (*) Input: "do be do be do"
+    (*) Output: {'do': 3, 'be': 2}
+*****
+KP2007: Character Counter
+Discover a sorted number of characters.
+
+(1) Input: Arbitrary string
+(2) Output: 
+    (*) Dictionary of unique characters
+    (*) Sorted by ascending tally
+(3) Test case:
+    (*) Input: "do be do be do"
+    (*) Output: {' ': 4, 'd': 3, 
+                 'o': 3, 'b': 2, 
+                 'e': 2}
+*****
+KP3006: Sine Wave Vertical
+Rasterize a sine wave into a string buffer.
+
+(1) Input: Nothing required
+(2) Output: Rasterized sine wave
+(3) Show the wave on the console
+*****
+KP3007: Points & Plotting
+Plot characters into a newline-delimited display area.
+
+(1) Constructor: 
+    (*) Accept display width & height
+    (*) Default to 50 * 20 if invalid
+(2) Function plot:
+    (*) x, y, and default char='*'
+    (*) 'Wrap-around' point on overflow
+    (*) Return final point plotted
+(3) Function get_results: 
+    (*) Return displayable result
+(4) Function get_size:
+    (*) Return display width, height
+(5) Create test cases
+*****
+KP1010: Easy Logger
+Create a class to append strings to the end of a file.
+
+(1) Output should be editable by system tools
+*****
+KP2008: Pickling
+Create a class to save, delete, and read dated journal entries using a "pickle" file.
+
+(1) Use argparse to create a command-line user 
+    interface
+(2) Create extensive test cases
+*****
+KP3008: C.R.U.D Accounting
+Use Soft9000.com PyDAO to [c]reate, [r]ead, [u]pdate and [d]elete accounting entries using an Sqlite database. 
+
+(1) Use argparse to provide a command-line 
+    interface
+(2) Provide comprehensive test cases
+*****
+KP1011: R.P.N Calculator
+Create a "Reverse Polish Notation" [R.P.N] Calculator
+
+(1) Lookup the definition of "R.P.N"
+(2) Support the +, -, *, and / operations
+(3) Craft test cases to support each operation
+(4) Provide test cases for combined 
+    mathematical operations
+*****
+KP3009: Secure String
+Write a function to encode and decode a string.
+
+(1) Constructor: Provide cypher `key`
+(2) Function encode: 
+    (*) Input: The string to encode
+    (*) Output: The secured string, as 
+        combined with the cypher key
+(3) Function decode:
+    (*) Input: The secured string
+    (*) Output: The original string
+(4) Provide verification test cases
+*****
+KP3010: Generators
+Create a Generator that will emit each prime number <= a numeric input range.
+
+(1) You will use Python's `yield` keyword
+(2) Provide test cases
+*****
+KP3011: Binary Search
+Use input() to search an arbitrary set of strings
+
+(1) User data will be comma-separated
+(2) Search Function:
+   (*) Accepts string to find and CSV 
+       user input
+   (*) Data must be sorted, numbered, 
+       and displayed
+   (*) Returns number of item if found, 
+       else 0
+(3) Test cases: 
+   (*) Ensure first, middle, and 
+       last sorted-values are found
+*****
+KP1012: List of Functions
+Pass a list of functions to a function designed to call each.
+
+(1) Use a 'zoo' and 'animal' paradigm
+(2) Animals to uniquely identify themselves
+*****
+KP2009: Lambda Functions
+Pass a list of lambda functions to a function designed to call each.
+
+(1) Use a 'zoo' and 'animal' paradigm
+(2) Animals to uniquely identify themselves
+*****
+KP3012: Framework Classes
+Pass a list of classes to a framework designed to manage each. 
+
+(1) Do not use the `abc` Module
+(2) Discreet operations include "eat," 
+    "speak," and "run."
+(3) Framework operations: "on eat," 
+    "on speak," and "on run."
+(4) Test cases exercise each operation
+*****
+KP3013: The `abc` Module
+Pass a list of classes to a framework designed to manage each. 
+
+(1) Use the `abc` Module
+(2) Discreet operations include "eat," 
+    "speak," and "run."
+(3) Framework operations: "on eat," 
+    "on speak," and "on run."
+(4) Test cases exercise each operation
+*****
+KP2010: 3D Arrays
+Create and populate a 3-dimensional array
+
+(1) Array size is 3 x 3 x 6
+(2) Collected elements begin at 10
+(*) array[0][1][2] == 15
+(*) array[1][1][1] == 23
+(*) array[2][1][0] == 31
+(*) array[5][2][2] == 63
+*****
+KP2011: Exception Management
+Demonstrate your ability to create and manage exceptions.
+
+(1) Manage: ZeroDivisionError
+(2) Create: MyCustomException
+(3) Use all exception-related keywords
+*****
+KP3014: Regular Expressions
+Use a Regular Expression to locate dotted-name, .com, email addresses.
+
+(1) Pattern: first.last@mysite.com
+(2) Mask: "(\w+\.\w+)@((\w+)\.com)"
+*****
+KP2012: Input, Looping & Evaluations
+Use input() and eval() to create a Python expression evaluator.
+
+(1) Program will loop until "quit()" is evaluated. 
+*****
+KP2013: Random Ranges
+Create a class to generate a random number between two integers.
+
+(1) Class to contain three (3) public functions
+(2) Use input(f1) to parse(f2) two CSV parameters
+(3) Parameters(f3) may be invalid or un-ordered
+(4) Each function returns (bool, number_result)
+(5) Error returns: (False, -1)
+*****
+KP2014: Using map()
+Encode a map() operation that uses a lambda function to generate a ranged list of numbers and their cubed value.
+
+(1) Input: Integral start & stop range
+(2) Processing: Use map() and lambda
+(3) Output: 
+    (*) [(number, number^3), ...]
+    (*) [] on error
+(4) Create test cases
+*****
+KP3015: Using filter()
+Use filter() range() and lambda to display numbers divisible by 3.
+
+(1) Input: Numbers from 3 to 23
+(2) Output: 3 6 9 12 15 18 21
+*****
+KP3016: Filtered Mapping
+Use filter(), map(), range() and lambda to cube values between 3 and 103 that are neither divisible by 2 nor 3.
+
+(*) Input: Integers from 3 to 103, inclusive
+(*) Processing: Integers not divisible by 2 or 
+    3, cubed
+(*) Results: [5, 15] [7, 21] [11, 33] ...
+*****
+KP2015: Grid Comprehension
+Demonstrate a list comprehension to create a 3 x 4 x 5 grid. 
+
+(1) Fill each element in the array with -1
+(2) Newline each row in the list upon the 
+    screen
+(3) Separate each line (4 rows) using another 
+    newline
+*****
+KP1013: Unique Set
+Display the unique characters between "I think therefore I am" and "I think therefore I can"
+
+(*) Use set()
+*****
+KP2016: Venn Operations
+Display characters relationships between "I think", "therefore I can", and "you can"
+
+(1) Use set()
+(2) Show Intersection a->b->c and c->b->a
+(3) Show Difference a->b->c and c->b->a
+(4) Show Union
+*****
+KP1014: Joining Strings
+Use the string class .join() member to create a numeric field of CSV values.
+
+(1) Input: n = range(3,31) where n % 3 == 0
+(2) Output: '3,6,9,12,15,18,21,24,27,30'
+(3) Bonus: Use a list comprehension
+*****
+KP1015: Parsing Strings
+Parse a numeric field of CSV values into a tuple.
+
+(1) Input: '3,6,9,12,15,18,21,24,27,30'
+(2) Output: tuple(3,6,9,12,15,18,21,24,27,30)
+*****
+KP3017: Number Detection
+Craft a function that parses a field of CVS values, returning a tuple of any non-numeric values.
+
+(1) Input: A CSV list of strings, integers, 
+    and monetary values
+(2) Output: Tuple of any non-numeric values
+(3) Error: Return an empty tuple
+(4) Test case to include: 
+    (*) Parsing each data type
+    (*) Success, as well as errors
+*****
+KP3018: Menu System
+Write an application loop that runs functions based upon input() values. 
+
+(*) Use the C.R.U.D design pattern 
+(*) Be sure to include a way to exit the loop
+(*) Bonus: Use lambda functions
+(*) Create test cases
+*****
+KP3019: State Machine
+Demonstrate a state machine that runs dynamically changing functions based upon user input() values. 
+
+(*) Use the C.R.U.D design pattern 
+(*) Be sure to include a way to exit the loop
+(*) Bonus: Use lambda functions
+*****
+KP2017: TDF Data
+Parse a Docstring containing a list of 10 rows of tab-delimited values into a list of lists.
+
+(1) Rows to include full user names, 
+    ages, emails, as well as monetary values
+(2) Verify success via test case
+*****
+KP2018: Sorting Length
+Use input() to pass a CSV string to your function to separate and sort values by length.
+
+(1) Input: String of arbitrary CSV values
+(2) Output: 
+    (*) List of length-sorted fields
+    (*) Include an option to use either an 
+        ascending, or a descending, order
+*****
+KP3020: Roman Dates
+Create a function to convert years into Roman Numbers.
+
+(1) Input: 1900 - 2021, inclusive
+(2) Output: A list of Roman numericals
+(3) Error: Return `None`
+(4) Create test case
+(*) Bonus: Use recursion
+(*) (Yes, you can "google it" ;-)
+*****
+KP3021: Roman Date Parser
+Create a function to convert a Roman Number.
+
+(1) Input: A Roman Number
+(2) Output: Integral Result
+(3) Error: Return -1
+(4) Create test cases for 1900 - 2021, 
+    	inclusive
+*****
+KP2019: Slicing
+Create a function to return the first and last 3 characters of a string.
+
+(1) Use input() to gather data dynamically
+(2) Return `None` on input underflow / error
+(3) Create test cases
+*****
+KP2020: Even Odd Detection
+Create a function to separate a list of numbers into even & odd values.
+
+(1) Input: A list of integers
+(2) Output: Two lists 
+    First even, second odd, values
+(3) Create test cases
+*****
+KP1016: Numerical Sums
+Create a function that sums a list of numerical values
+
+(1) Input: 
+    (*) Integer and monetary values
+    (*) Positive and negative values
+(2) Output: The accumulated total
+(3) Create test cases
+*****
+KP3022: Polymorphism
+Encode an abstract shape class designed to report shape size. Create a function to calculate the area of a list of shapes.
+
+(1) Input: To include square, triangle, 
+    circle, and rectangle shapes
+(2) Output: Total area, else zero on 
+    error
+(3) Create test cases
+*****
+KP2021: Data Representations
+Create a class to convert strings between binary, hexadecimal, and octal formats.
+
+(*) Processing: 
+    (*) Create static member functions
+    (*) Provide both to_ & from_ `hex`, `bin`, 
+        and `oct` member functions
+*****
+KP2022: Binary Calculations
+Create a class to show the result of common binary operations.
+
+(1) Input: Binary String
+(2) Output: Binary String
+(3) Processing: add, subtract, 'or', and 'xor'
+(4) Integral conversion is not required
+(5) Create test cases
+*****
+KP2023: CSV Roundtrip
+Create an application to exchange Python data collections using CSV files.
+
+(1) Use the Python's CSV Module
+(2) Collections to include integer, monetary, 
+    boolean, as well as string values
+(3) CSV data to be imported then exported
+(4) Create test case
+*****
+KP2024: Word Tally
+Save the text version of Leviathan from Project Gutenberg to a file. Display the ten most, and least -used words.
+
+(1) Input: 
+    (*) https://www.gutenberg.org/files/3207
+(2) Processing: Skip words < 5 characters long
+(3) Bonus: How many times is 'Leviathan' used?
+(*) Book Author: Thomas Hobbes
+*****
+KP3023: Web Scraping
+Dynamically access the text version of Leviathan from Project Gutenberg. Display the ten most, and least -used words.
+
+(1) Input: http://www.gutenberg.org/files/3207
+(2) Processing: Skip words < 5 characters long
+(3) Bonus: How many times is 'Leviathan' used?
+(*) Book Author: Thomas Hobbes
+*****
+KP3024: Distance Calculations
+Create a class to capture movement around a point of origin. Return the integral distance traveled from the origin after each movement.
+
+(1) Constructor: Origin (x,y)
+(2) Processing: 
+    (*) go_ N, S, E, W
+    (*) Input: Movement (integer)
+    (*) Return: Distance from origin
+(3) Hint: a2 + b2 = c2
+*****
+KP1017: Doctest
+Create a function to count the vowels in an input string. Create a "Doctest" to test the same.
+
+(1) Input: Use the input() function
+(2) Output: A descending, sorted dictionary
+    for the number of vowels found
+*****
+KP2025: Built In Functions
+Create a sorted dictionary of Python's built-in functions. Include the first 30 Docstring characters.
+
+(1) Exclude mixed-case names
+(2) Exclude `Dunder Names`
+(3) Output Example: 
+   "{'abs': 'Return the [... 30]', ...}"
+*****
+KP3025: Built In Words
+Find the most, and the least used 10 words (20 words total) by all built-in function Docstrings.
+
+(1) Input: Docstrings from the Built-ins 
+    Module functions
+(2) Processing: Ignore words < 4 characters 
+    long
+(3) Output: The 10 most, and the 10 least
+    used words
+*****
+KP1018: Random Float
+Generate a random floating point value between 10 and 100.
+
+(*) Use Python's `random` Module
+*****
+KP1019: Random Choice
+Choose a random entry from a populated integral sequence.
+  
+(*) Use Python's `random` Module
+*****
+KP1020: Dict Conversion
+Convert a dict() to a list(), then back to a dict() once again.
+
+(*) Source: {'a': 1, 'b': 2}
+*****
+KP1021: Reversals
+Reverse the content of a string and a tuple using the same notation.
+
+(*) Hint: Use slicing
+*****
+KP1022: Permutation
+Print all possible permutations of your last name.
+
+(*) Hint: Use the `itertools` Module
+*****
+KP1023: Set Intersect
+Print any common characters found in your first and last name.
+
+(1) Input: Use input() to provide two strings
+(2) Processing: Loop until 'quit' is entered
+(3) Processing: Split & compare the strings
+(4) Output: A list of common characters
+(*) Hint: Use set()
+*****
+KP1024: Dup Removal
+Remove common characters from a sorted input string.
+
+(1) Input: Use input() to provide the string
+(2) Output: Sorted list of unique characters
+(3) Processing: Loop until 'quit' is entered
+*****
+KP1025: Timed Processing
+Write a program that will pause for 2 seconds while iterating through any input string.
+
+(1) Input: Use input() to provide the string
+(2) Output: List of pause-printed characters
+(3) Processing: Loop until 'quit' is entered
+*****
+KP3026: Object Construction
+Demonstrate class initialization using __init_, @classmethod and @staticmethod. Each to populate said class differently.
+
+(*) __init__: Empty class
+(*) @classmethod: Populate using *args.
+(*) @staticmethod: Populate using **kwargs
+*****
+KP2026: Host Address
+If you've a network, display your computer's name and IP Address.
+
+(*) Hint: Use Python's `socket` Module
+*****
+KP3027: Datagram
+If you've a network, broadcast and receive a message from yourself.
+
+(1) Hints:
+    (*) Use Python's `socket` Module
+    (*) Use SOC_DGRAM
+(2) You can study an online example
+*****
+KP3028: TCP Message
+If you've a network, connect, send, and respond to a message from yourself.
+
+(1) Hints:
+    (*) Use Python's `socket` Module
+    (*) Use SOC_STREAM
+(2) You can review an online example
+*****
+KP3029: GUI Dictionary
+Use Tkinter to edit a dictionary. 
+
+(1) Input: Dictionary of key-value pairs
+(2) Processing:
+    (*) Dictionary keys describe values
+    (*) Existing values are editable
+    (*) [Okay] button updates dictionary
+    (*) [Cancel] button ignores changes
+(3) Output: Updated dictionary or `None`
