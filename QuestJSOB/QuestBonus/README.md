@@ -2,7 +2,7 @@
 
 The cards here are neither yet part of the [PyQuest Core](https://github.com/Python3-Training/PyQuest/tree/main/CardGame/QuestCore), nor the [Pyquest Projects](https://github.com/Python3-Training/PyQuest/tree/main/CardGame/QuestProjects) Decks. 
 
-We've even MORE bonus cards [in their new location!](https://github.com/Python3-Training/PyQuest/tree/main/CardGame/QuestBonus) Decks. 
+We've even MORE bonus cards [in their new location](https://github.com/Python3-Training/PyQuest/tree/main/CardGame/QuestBonus)!
 
 
 ## Video Quests
