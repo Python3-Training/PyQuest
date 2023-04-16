@@ -24,6 +24,11 @@ a_rect = mk_rect('1', 2)
 if a_rect:
     errors = True
 
+a_rect = mk_rect(1, 'One\ntwo\nThree')
+if a_rect != ' *********\n *  One  *\n *  two  *\n * Three *\n *********\n':
+    errors = True
+print(a_rect)
+
 
 # Report
 if not errors:
