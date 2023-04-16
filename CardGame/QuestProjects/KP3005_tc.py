@@ -4,12 +4,13 @@ KP3005: Message Boxes
 Design a class to create message boxes.
 
 (1) msg_box(x, y, msg, box='*')
-(2) Message may be multi-line
-(3) get_screen()->[]
-(4) Create multi-message test cases
-(5) Verify multiline messages
-(6) Verify overlapped messages
-(7) Screen size is absolute
+(2) get_screen()->[]
+(3) Message may be multi-lined
+(4) Class will not draw the screen
+(5) Create multi-message test cases
+(6) Verify multiline messages
+(7) Verify overlapped messages
+(8) Screen size is absolute
 '''
 class MsgScreen:
 

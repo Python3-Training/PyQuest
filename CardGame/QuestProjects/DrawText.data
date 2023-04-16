@@ -110,20 +110,23 @@ Define a class to create message boxes.
     (*) Default inset is 10
     (*) Default character is '*'
 (2) Input: Message to display
-(3) Output: Inset, centered message in a tuple
-(4) Do not draw the rectangle on the screen
+(3) Output: Inset, centered message
+    in a tuple
+(4) Class will not draw the rectangle
+    on the screen
 (5) Create a test case
 *****
 KP3005: Message Boxes
 Design a class to create message boxes.
 
-(1) msg_box(inset, msg, box='*')
+(1) msg_box(x, y, msg, box='*')
 (2) get_screen()->[]
-(3) Message may be multi-line
-(4) Do not draw screen rectangle(s)
+(3) Message may be multi-lined
+(4) Class will not draw the screen
 (5) Create multi-message test cases
 (6) Verify multiline messages
 (7) Verify overlapped messages
+(8) Screen size is absolute
 *****
 KP1006: Sorting Strings
 Create a function to split and sort string data.
