@@ -79,16 +79,18 @@ Create a function to create an inclusive number series.
 KP1004: Area Calculation
 Calculate the area of a rectangle.
 
-(1) Input: Two numbers
-(2) Output: Area
+(1) Input: Integral length and width
+(2) Output: Area or `None`
 (3) Provide a test case
 *****
 KP1005: Rectangles
-Define a testable rectangle operation.
+Create a testable function that creates textual rectangles.
 
-(1) Input: Inset, length, height
-(2) Output: Inset text rectangle in an list
-(3) Do not draw the rectangle on the screen
+(1) Input: Rectangle inset, length & height
+(2) Output: Inset text-rectangle in a 
+    string buffer
+(3) Function should not draw the rectangle 
+    on the screen
 (4) Create a test case
 *****
 KP2005: Message Box
@@ -96,7 +98,8 @@ Define a function to create a message box.
 
 (1) Input: Inset, message
 (2) Output: Inset, centered message in a tuple
-(3) Do not draw the rectangle on the screen
+(3) Function should not draw the rectangle 
+    on the screen
 (4) Create a test case
 *****
 KP3004: Message Box
