@@ -10,8 +10,7 @@ Define a class to create message boxes.
 (2) Input: Message to display
 (3) Output: Inset, centered message
     in a tuple
-(4) Class will not draw the rectangle
-    on the screen
+(4) Class will not draw the screen
 (5) Create a test case
 '''
 class MkRect:
