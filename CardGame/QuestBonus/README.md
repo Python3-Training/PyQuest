@@ -16,7 +16,7 @@ Uniquely numbered, please feel free to share *_your_* solutions on *_your_* page
 
 You might also want to bookmark the new [author's page on Amazon](https://www.amazon.com/Randall-Nagy/e/B08ZJLH1VN).
 
-Here are the links to both my personal [python product group](https://www.facebook.com/groups/nagyspythontraining) and our **20,000** member-strong ['Pythoneering group](https://www.facebook.com/groups/Python3Training). 
+Here are the links to both my personal [python product group](https://www.facebook.com/groups/nagyspythontraining) and our **20,000** member-strong [group of Pythoneers](https://www.facebook.com/groups/Python3Training). 
 
 Happy 'Pythoneering,
 
