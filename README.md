@@ -8,10 +8,10 @@
 *Everything related to the question and answer database application is now here!*
 
 ## zGroup
-Created in May of 2020, here is [the Facebook group](https://www.facebook.com/PythonVideo/)
+Created in May of 2020, here is ever growing [Facebook group](https://www.facebook.com/PythonVideo/).
 
 ## zVideos
-Here are [the Videos](https://soft9000.com)
+Created well before 2020 here are [the Videos](https://soft9000.com)
 - [Python 9000: Review Concepts (K1 thru K10)](https://www.udemy.com/course/python-interview-questions/?referralCode=6B199764132B575C503C)
 - [Python 9000: Review Concepts (K11 thru K22)](https://www.udemy.com/course/nagys-python-review-k11-k22/?referralCode=2280C848244C9714E1E2)
 
