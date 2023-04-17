@@ -8,7 +8,7 @@ Also yes, a book - complete with code - is presently in the works. In the mean t
 
 Feel free to encourage us in this effort by [ordering the basic set of cards online](https://www.amazon.com/100-PyQuest-Cards-Randall-Nagy/dp/B0BZF8VHDJ/).
 
-Finally, if you are short on cash - or event if you're not ;-) - an free way to support this happy task would be to [join the PyQuest team on Facebook](https://www.facebook.com/PythonVideo). 
+Finally, if you are short on cash - or event if you're not ;-) - another free way to support this happy task would be to [join the PyQuest team on Facebook](https://www.facebook.com/PythonVideo). 
 
 Please note that I also share much of my 'Pythoneering activities in the [Python Training Group](https://www.facebook.com/groups/nagyspythontraining) as well.
 
