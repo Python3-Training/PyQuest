@@ -23,7 +23,7 @@ Uniquely numbered, please feel free to share *_your_* solutions on *_your_* page
 ## zBooks!
 If you would like to see *_our_* solutions, note that [The PyQuest Core Book](https://www.amazon.com/100-PyQuest-Cards-Randall-Nagy/dp/B0BZF8VHDJ/) is available on the 'zon. 
 
-When ready, the other books will be [showing up here](https://www.amazon.com/100-PyQuest-Cards-Randall-Nagy)!
+When ready, the other books will be [showing up here](https://www.amazon.com/Randall-Nagy/e/B08ZJLH1VN)!
 
 ## zTeam
 To more enjoy the happy quest you can [join the PyQuest team on Facebook](https://www.facebook.com/PythonVideo). 
