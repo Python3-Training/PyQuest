@@ -8,7 +8,7 @@
 *Everything related to the question and answer database application is now here!*
 
 ## zGroup
-Created in May of 2020, here is ever growing [Facebook group](https://www.facebook.com/PythonVideo/).
+Created in May of 2020, here is the ever growing [Facebook group](https://www.facebook.com/PythonVideo/).
 
 ## zVideos
 Created well before 2020 were the [Udemy Videos](https://www.udemy.com/user/randallnagy2/). The PyQuest videos started with:
