@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+
+# Nagy's PyQuest Project Collection
+# Some inspiration to assist with your solution!
+# Soft9000.com
+# Groups:
+#    https://www.facebook.com/PythonVideo/
+#    https://www.facebook.com/groups/pyquest
+
 '''
 KP1005: Rectangles
 Create a testable function that creates textual rectangles.
