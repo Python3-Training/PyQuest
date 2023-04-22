@@ -1,6 +1,10 @@
 # PyQuest !
 **Nagy's Question &amp; Answer Collection for Python**
 
+PyQuest is a simple strategy to manage an ever growing set of questions & answers on the Python programming language. PyQuest's globally unique numbering strategy is designed to help other 'Pythoneers find YOUR clever solutions across the 'Pythoneering planet as well.
+
+PyQuest is also about sharing printable cards, videos, online training, our solutions, as well as an educational card game.
+
 ![Pyquest Logo](PyQuest_Logo.png)
 
 *Created beforehand yet shared on the 'Hub on July 9, 2020, PyQuest **was** originally part of my **[DatMan](https://github.com/Python3-Training/DatMan/blob/master/LICENSE)** Project.*
