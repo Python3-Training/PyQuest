@@ -7,6 +7,8 @@ Cards prefixed by "KV" are part of an ongoing video quest.
 
 ![Nagy's Apress Socket Video](https://github.com/Python3-Training/PyQuest/blob/main/CardGame/QuestBonus/KV3029.png)
 
+For example, a good many bonus cards come from my copyrighted [Apress video on Python networking](https://link.springer.com/video/10.1007/978-1-4842-9454-3).
+
 ## Concept Quests
 Cards prefixed by "K0" herein are mostly part of an ongoing quest to demonstrate selected concepts (etc.)
 
