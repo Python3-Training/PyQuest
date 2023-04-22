@@ -127,10 +127,11 @@ Design a class to create message boxes.
 (8) Screen size is absolute
 *****
 KP1006: Sorting Strings
-Create a function to split and sort string data.
+Create a function to split and sort string data input.
 
 (1) Input: Arbitrary string of words
 (2) Output: Sorted list of unique words
+(3) Create a test case
 *****
 KP1007: CSV Strings
 Create a function to collect unique words.
@@ -138,16 +139,7 @@ Create a function to collect unique words.
 (1) Input: Arbitrary string of words
 (2) Output: CSV string of unique words
 *****
-KP1008: Title Strings
-Create a function to capitalize the first letter in a word. Ignore words under 3 characters in length.
-
-(1) Input: Arbitrary word string
-(2) Output: Title text
-(3) Test case:
-    (*) Input: "this is a test"
-    (*) Output: "This is a Test"
-*****
-KP1009: Uppercased Strings
+KP1008: Uppercased Strings
 Create a function to capitalize words. 
 
 (1) Input: Arbitrary word string
@@ -155,6 +147,15 @@ Create a function to capitalize words.
 (3) Test case:
     (*) Input: "this is a test"
     (*) Output: "THIS IS A TEST"
+*****
+KP1009: Title Strings
+Create a function to capitalize the first letter in a word. Ignore words under 3 characters in length.
+
+(1) Input: Arbitrary word string
+(2) Output: Title text
+(3) Test case:
+    (*) Input: "this is a test"
+    (*) Output: "This is a Test"
 *****
 KP2006: Sorting Strings Tally
 Create a function to split, sort, and count string data.
@@ -197,30 +198,34 @@ Plot characters into a newline-delimited display area.
     (*) x, y, and default char='*'
     (*) 'Wrap-around' point on overflow
     (*) Return final point plotted
-(3) Function get_results: 
+(3) Function get_screen: 
     (*) Return displayable result
 (4) Function get_size:
     (*) Return display width, height
 (5) Create test cases
 *****
 KP1010: Easy Logger
-Create a class to append strings to the end of a file.
+Create a class to append and read the lines for a file.
 
-(1) Output should be editable by system tools
+(1) File editable by text editors
+(2) Manage exceptions
+(3) Include a way to delete the file
+(4) Provide a test case
 *****
 KP2008: Pickling
 Create a class to save, delete, and read dated journal entries using a "pickle" file.
 
 (1) Use argparse to create a command-line user 
-    interface
-(2) Create extensive test cases
+    interface (C.L.I)
+(2) Include a way to delete the pickle file
+(3) Create extensive test cases
 *****
-KP3008: C.R.U.D Accounting
-Use Soft9000.com PyDAO to [c]reate, [r]ead, [u]pdate and [d]elete accounting entries using an Sqlite database. 
+KP3008: C.R.U.D Accounting <<EOE>>
+Use Soft9000.com PyDAO to [c]reate, [r]ead, [u]pdate and [d]elete and [s]um debits and credits using an Sqlite database. 
 
 (1) Use argparse to provide a command-line 
     interface
-(2) Provide comprehensive test cases
+(2) Provide the full set of test cases
 *****
 KP1011: R.P.N Calculator
 Create a "Reverse Polish Notation" [R.P.N] Calculator
@@ -245,7 +250,7 @@ Write a function to encode and decode a string.
 (4) Provide verification test cases
 *****
 KP3010: Generators
-Create a Generator that will emit each prime number <= a numeric input range.
+Create a Generator that will emit an inclusive set of prime numbers.
 
 (1) You will use Python's `yield` keyword
 (2) Provide test cases
@@ -330,12 +335,12 @@ Create a class to generate a random number between two integers.
 
 (1) Class to contain three (3) public functions
 (2) Use input(f1) to parse(f2) two CSV parameters
-(3) Parameters(f3) may be invalid or un-ordered
+(3) Parameters(f3) may be invalid or unordered
 (4) Each function returns (bool, number_result)
 (5) Error returns: (False, -1)
 *****
 KP2014: Using map()
-Encode a map() operation that uses a lambda function to generate a ranged list of numbers and their cubed value.
+Encode a map() operation that uses a lambda function. Generate a ranged list of numbers and their cubed value.
 
 (1) Input: Integral start & stop range
 (2) Processing: Use map() and lambda
@@ -694,3 +699,28 @@ Draw the following:
 ........***........
 .........*.........
 *****
+KP3032: R.E. Phone
+Create a regular expression to:
+
+(*) Parse your phone number
+*****
+KP3033: R.E. ID
+Create a regular expression to:
+
+(*) Parse a government identification number
+*****
+KP3034: R.E. Email
+Create a regular expression to:
+
+(*) Parse an email .com address
+*****
+KP2030: R.E. Street
+Create a regular expression to:
+
+(*) Parse a your street address
+*****
+KP1027: R.E. Name
+Create a regular expression to:
+
+(*) Parse your first-name, last-name
+
