@@ -25,6 +25,10 @@ import os.path
 
 class Logger:
 
+    def load(self)->list[str]:
+        '''Read & return everything in the pickle file. '''
+        pass
+
     def create(self, line)->bool:
         '''Date-stamp & append a line to the log file. '''
         pass
