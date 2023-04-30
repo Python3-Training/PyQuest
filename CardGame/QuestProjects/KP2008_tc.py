@@ -141,21 +141,21 @@ if __name__ == '__main__':
     ]
     for test in delta_cases:
         aobj = parser.parse_args(test[0])
-        Logger.CLI(aobj.__dict__)
+        Logger.CLI(vars(aobj))
         if test_comp(test[1]):
             print("Testing Success.")
             success += 1
         else:
             print("Testing Failure.")
 
-    tr = Logger.CLI(parser.parse_args(['-l', '42', '5']).__dict__)
+    tr = Logger.CLI(vars(parser.parse_args(['-l', '42', '5'])))
     if(tr == Logger().load()[-1]):
         print("Testing Success.")
         success += 1
     else:
         print("Testing Failure.")
 
-    tr = Logger.CLI(parser.parse_args(['-l', '1', '3']).__dict__)
+    tr = Logger.CLI(vars(parser.parse_args(['-l', '1', '3'])))
     lines = Logger().load()
     if(len(tr) != 3):
         raise Exception("Error: Listing Range Error")
@@ -165,14 +165,14 @@ if __name__ == '__main__':
     print("Testing Success")
     success += 1
 
-    tr = Logger.CLI(parser.parse_args(['-r', '1']).__dict__)
+    tr = Logger.CLI(vars(parser.parse_args(['-r', '1'])))
     if (tr[12:] == "This is an update!"):
         print("Testing Success.")
         success += 1
     else:
         print("Testing Failure.")
 
-    tr = Logger.CLI(parser.parse_args(['-r', '42']).__dict__)
+    tr = Logger.CLI(vars(parser.parse_args(['-r', '42'])))
     if (not tr):
         print("Testing Success.")
         success += 1
@@ -186,7 +186,7 @@ if __name__ == '__main__':
         raise Exception("Error: File did not unlink.")
     for data in range(100):
         test.create(str(data))
-    tr = Logger.CLI(parser.parse_args(['-l', '50', '6']).__dict__)
+    tr = Logger.CLI(vars(parser.parse_args(['-l', '50', '6'])))
     lines = Logger().load()
     if len(tr) != 6:
         raise Exception("Error: Ranged list size error.")
@@ -201,4 +201,3 @@ if __name__ == '__main__':
         message = "Error: Some test cases did not work?"
     sz = len(message)
     print('\n','*'*sz, message,'*'*sz, sep='\n')
-
