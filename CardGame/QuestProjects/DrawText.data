@@ -213,19 +213,20 @@ Create a class to append and read the lines for a file.
 (4) Provide a test case
 *****
 KP2008: Pickling
-Create a class to save, delete, and read dated journal entries using a "pickle" file.
+Create a class to create, delete, update, read, and list dated journal entries using a "pickle" file.
 
 (1) Use argparse to create a command-line user 
     interface (C.L.I)
 (2) Include a way to delete the pickle file
 (3) Create extensive test cases
 *****
-KP3008: C.R.U.D Accounting <<EOE>>
-Use Soft9000.com PyDAO to [c]reate, [r]ead, [u]pdate and [d]elete and [s]um debits and credits using an Sqlite database. 
+KP3008: C.R.U.D Accounting
+Use Soft9000.com PyDAO to [c]reate, [r]ead, [u]pdate, [d]elete, and [s]um any banking balance using SQLite. 
 
 (1) Use argparse to provide a command-line 
-    interface
+    interface (C.L.I)
 (2) Provide the full set of test cases
+(3) BONUS: Include 'list entries' option
 *****
 KP1011: R.P.N Calculator
 Create a "Reverse Polish Notation" [R.P.N] Calculator
@@ -664,6 +665,7 @@ Create, initialize, and use a class so as to demonstrate class destruction.
 *****
 KP2028: Class Data
 Demonstrate how to discover and show class data members.
+
 (1) Technique must work for any class
 (2) Public data members, only
 (3) Create a test case
@@ -723,4 +725,14 @@ KP1027: R.E. Name
 Create a regular expression to:
 
 (*) Parse your first-name, last-name
+*****
+KP3035: TUI Bar Chart
+Create a class to display a Bar Chart on your console.
+
+(1) Chart height and width can be specified 
+(2) Charted 'bars' are horizontal
+(3) Bars may use different characters
+(4) X and Y axis displayed using '|'
+(5) Axis displays '+' every 5 units
+(6) Create a test case.
 
