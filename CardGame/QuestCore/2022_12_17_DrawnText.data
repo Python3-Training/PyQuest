@@ -2,7 +2,7 @@
 KA1001: The Whole Shebang
 What is a 'shebang'?
 
-(1) A starting comment with an exclamation point
+(1) A starting comment and exclamation point
 (2) A script that explodes without warning
 (3) A program that warns before exploding
 (4) Another name for an exception
@@ -759,3 +759,19 @@ What is in the `abc` Module?
 *****
 KA3030: Static Member Assurance
 How can we force subclasses to have a static object factory?
+*****
+KA3031: How to check object membership?
+
+(1) Use Inheritance
+(2) Use 'Duck Typing'
+(3) Use hasattr()
+(4) Use getattr()
+(5) Either 1 or 2
+*****
+KA3032: How to add object membership?
+
+(1) Use Inheritance
+(2) Use 'Duck Typing'
+(3) Use hasattr()
+(4) Use setattr()
+(5) Either 1 or 2
