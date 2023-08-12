@@ -760,7 +760,8 @@ What is in the `abc` Module?
 KA3030: Static Member Assurance
 How can we force subclasses to have a static object factory?
 *****
-KA3031: How to check object membership?
+KA3031: Object Management
+How to check object membership?
 
 (1) Use Inheritance
 (2) Use 'Duck Typing'
@@ -768,7 +769,8 @@ KA3031: How to check object membership?
 (4) Use getattr()
 (5) Either 1 or 2
 *****
-KA3032: How to add object membership?
+KA3032: Object Management
+How to add object membership?
 
 (1) Use Inheritance
 (2) Use 'Duck Typing'
@@ -776,7 +778,8 @@ KA3032: How to add object membership?
 (4) Use setattr()
 (5) Either 1 or 2
 *****
-KA3033: Use hasattr() to:
+KA3033: Object Management
+Use hasattr() to:
 
 (1) Check Inheritance
 (2) Create 'Duck Typing'
@@ -784,7 +787,8 @@ KA3033: Use hasattr() to:
 (4) Return named attribute
 (5) All of the above
 *****
-KA3034: Use getattr() to:
+KA3034: Object Management
+Use getattr() to:
 
 (1) Check Inheritance
 (2) Create 'Duck Typing'
@@ -792,7 +796,8 @@ KA3034: Use getattr() to:
 (4) Return named attribute
 (5) All of the above
 *****
-KA3035: Use setattr() to:
+KA3035: Object Management 
+Use setattr() to:
 
 (1) Replace existing member
 (2) Assign new attribute
@@ -800,8 +805,9 @@ KA3035: Use setattr() to:
 (4) Attempt attribute removal
 (5) Two of the above
 
-*****
-KA3036: Use delattr() to:
+***** 
+KA3036: Object Management
+Use delattr() to:
 
 (1) Replace existing member
 (2) Assign new attribute
