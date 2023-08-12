@@ -1,6 +1,6 @@
 # PyQuest Core
 
-Here are 100 flash cards for you to enjoy! Feel free to print them, 
+Here are over 100 flash cards for you to enjoy! Feel free to print them, 
 share them, or simply collect your 'fav...
 
 You can also [order these cards online](https://www.amazon.com/100-PyQuest-Cards-Randall-Nagy/dp/B0BZF8VHDJ/).
