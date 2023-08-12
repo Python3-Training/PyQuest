@@ -767,7 +767,7 @@ How to check object membership?
 (2) Use 'Duck Typing'
 (3) Use hasattr()
 (4) Use getattr()
-(5) Either 1 or 2
+(5) Either 3 or 4
 *****
 KA3032: Object Management
 How to add object membership?
@@ -776,7 +776,7 @@ How to add object membership?
 (2) Use 'Duck Typing'
 (3) Use hasattr()
 (4) Use setattr()
-(5) Either 1 or 2
+(5) Either 3 or 4
 *****
 KA3033: Object Management
 Use hasattr() to:
