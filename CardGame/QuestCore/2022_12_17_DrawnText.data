@@ -417,7 +417,7 @@ Using [].extend('nagy') will:
 (4) Append ['n', 'a', 'g', 'y']
 (5) None of the above
 *****
-KA1046: List Basics
+KA1047: List Basics
 Using [].append('nagy') will:
 
 (1) Append 'n', 'a', 'g', 'y'
