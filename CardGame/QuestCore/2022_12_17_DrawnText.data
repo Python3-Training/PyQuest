@@ -318,6 +318,114 @@ A `doctest` is a way to ?
 (4) Add a test case to a Docstring
 (5) All of the above
 *****
+KA1036: Programming Basics
+Entering `python3` at a CLI is often required to?
+
+(1) Run Python on Windows
+(2) Run VS Code
+(3) Do testing-first 
+(4) Start Python on POSIX
+(5) All of the above
+*****
+KA1037: Programming Basics
+How do we know what version of Python we are running?
+
+(1) Run Python on Windows
+(2) Open any REPL Session
+(3) Run Python --version 
+(4) Start Python on POSIX
+(5) All of the above
+*****
+KA1038: Programming Basics
+The `python.org` web-site manages the:
+
+(1) Only place to get Python
+(2) Python Implementation Standard
+(3) Package Purchasing Options
+(4) Python Tariffs & Taxes
+(5) None of the above
+*****
+KA1039: Programming Basics
+What is POSIX?
+
+(1) Only place to get Python
+(2) Database Standard
+(3) Package Purchasing Options
+(4) Operating System Standard
+(5) None of the above
+*****
+KA1040: Python Basics
+What is `pip`?
+
+(1) File Copying Support
+(2) Folder POSIX Standard
+(3) Package Manager
+(4) Operating System Standard
+(5) None of the above
+*****
+KA1041: Python Basics
+What is the Python `cheese shop`?
+
+(1) Folder Copying Support
+(2) POSIX File Standard
+(3) Package Manager
+(4) Python’s Package Nexus
+(5) None of the above
+*****
+KA1042: Python Basics
+What is an I.D.E?
+
+(1) Folder Copying Support
+(2) POSIX File Standard
+(3) Package Manager
+(4) Python’s Package Nexus
+(5) None of the above
+*****
+KA1043: Python Basics
+How can we include packages?
+
+(1) Use the `using` statement
+(2) Use the `include` statement
+(3) Use the `import` statement
+(4) Use PyPi
+(5) All of the above
+*****
+KA1044: List Basics
+['nagy'] expands to:
+
+(1) ['n', 'a', 'g', 'y']
+(2) ['nagy']
+(3) ('nagy')
+(4) {'n', 'a', 'g', 'y'}
+(5) None of the above
+*****
+KA1045: List Basics
+list('nagy') expands to:
+
+(1) ['n', 'a', 'g', 'y']
+(2) ['nagy']
+(3) ('nagy')
+(4) {'n', 'a', 'g', 'y'}
+(5) None of the above
+*****
+KA1046: List Basics
+Using [].extend('nagy') will:
+
+(1) Append 'n', 'a', 'g', 'y'
+(2) Append ['nagy']
+(3) Append 'nagy'
+(4) Append ['n', 'a', 'g', 'y']
+(5) None of the above
+*****
+KA1046: List Basics
+Using [].append('nagy') will:
+
+(1) Append 'n', 'a', 'g', 'y'
+(2) Append ['nagy']
+(3) Append 'nagy'
+(4) Append ['n', 'a', 'g', 'y']
+(5) None of the above
+*****
 KA2001: Exceptions
 What is an 'Exception'?
 
