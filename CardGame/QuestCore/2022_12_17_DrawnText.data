@@ -426,6 +426,87 @@ Using [].append('nagy') will:
 (4) Append ['n', 'a', 'g', 'y']
 (5) None of the above
 *****
+KA1048: Function Basics
+Coding a function must use:
+
+(1) The `return` Keyword
+(2) The `dim` Keyword
+(3) The `def` Keyword
+(4) Two of the above
+(5) None of the above
+*****
+KA1049: String Basics
+Strings in Python are enclosed in:
+
+(1) Single quotes
+(2) Double quotes
+(3) Tripple quotes
+(4) Any of the above
+(5) None of the above
+*****
+KA1050: Comment Basics
+Comments in Python use:
+
+(1) Single quotes
+(2) Double quotes
+(3) Tripple quotes
+(4) Any of the above
+(5) None of the above
+*****
+KA1051: Comment Basics
+Python use the # sign for:
+
+(1) Multiplication
+(2) Line Comments
+(3) Multiline Comments
+(4) Any of the above
+(5) None of the above
+*****
+KA1052: Python Basics
+A `block` is use to:
+
+(1) Import a Module
+(2) Create Line Comments
+(3) Create Variables
+(4) Define Statements
+(5) None of the above
+*****
+KA1053: Python Basics
+Defining a `block` often requires:
+
+(1) Tabs
+(2) Spaces
+(3) Newlines
+(4) Colons
+(5) Any of the above
+*****
+KA1054: Python Basics
+`Nesting` means:
+
+(1) Using Tabs
+(2) Using Spaces
+(3) Using Newlines
+(4) Blocks having Blocks
+(5) None of the above
+*****
+KA1055: Python Basics
+A `Module` is:
+
+(1) A First-Class Function
+(2) An imported Collection of Scripts
+(3) An imported collection of Classes
+(4) An imported collection of Functions
+(5) None of the above
+*****
+KA1056: Boolean Basics
+Boolean Values:
+
+(1) Either `True` or `False`
+(2) Can include `None`
+(3) Are default return types
+(4) May be lower cased
+(5) All of the above
+*****
 KA2001: Exceptions
 What is an 'Exception'?
 
