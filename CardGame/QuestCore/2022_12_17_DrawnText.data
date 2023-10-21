@@ -454,7 +454,7 @@ Comments in Python use:
 (5) None of the above
 *****
 KA1051: Comment Basics
-Python use the # sign for:
+Python uses the # sign for:
 
 (1) Multiplication
 (2) Line Comments
@@ -463,7 +463,7 @@ Python use the # sign for:
 (5) None of the above
 *****
 KA1052: Python Basics
-A `block` is use to:
+A `block` is used to:
 
 (1) Import a Module
 (2) Create Line Comments
@@ -486,14 +486,14 @@ KA1054: Python Basics
 (1) Using Tabs
 (2) Using Spaces
 (3) Using Newlines
-(4) Blocks having Blocks
+(4) Blocks having blocks
 (5) None of the above
 *****
 KA1055: Python Basics
 A `Module` is:
 
 (1) A First-Class Function
-(2) An imported Collection of Scripts
+(2) An imported collection of Scripts
 (3) An imported collection of Classes
 (4) An imported collection of Functions
 (5) None of the above
