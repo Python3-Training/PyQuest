@@ -516,6 +516,24 @@ In Python, `type hinting` will:
 (4) Show pop-up help
 (5) All of the above
 *****
+KA1058: Escape Sequences
+In Python, an Escape Sequence:
+
+(1) Requires parameters
+(2) Is an assignment location
+(3) Is the rightmost location
+(4) Always a leftmost location
+(5) None of the above
+*****
+KA1059: Programming Terms
+An 'r-value' is:
+
+(1) The leftmost location
+(2) The assignment location
+(3) The rightmost expression
+(4) The Escape Sequence
+(5) All of the above
+*****
 KA2001: Exceptions
 What is an 'Exception'?
 
