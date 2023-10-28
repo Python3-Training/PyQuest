@@ -507,6 +507,15 @@ Boolean Values:
 (4) May be lower cased
 (5) All of the above
 *****
+KA1057: Type Hinting
+In Python, `type hinting` will:
+
+(1) Requre parameters
+(2) Create type menues
+(3) Suggest parameters
+(4) Show pop-up help
+(5) All of the above
+*****
 KA2001: Exceptions
 What is an 'Exception'?
 
