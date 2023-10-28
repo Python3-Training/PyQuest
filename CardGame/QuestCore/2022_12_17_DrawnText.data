@@ -510,8 +510,8 @@ Boolean Values:
 KA1057: Type Hinting
 In Python, `type hinting` will:
 
-(1) Requre parameters
-(2) Create type menues
+(1) Require parameters
+(2) Create type menus
 (3) Suggest parameters
 (4) Show pop-up help
 (5) All of the above
