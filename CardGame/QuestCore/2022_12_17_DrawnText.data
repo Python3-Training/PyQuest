@@ -534,6 +534,15 @@ An 'r-value' is:
 (4) The Escape Sequence
 (5) All of the above
 *****
+KA1060: Evaluations
+eval('bool(1)') will:
+
+(1) Raise an Exception
+(2) Return True
+(3) Return False
+(4) Return NoneType
+(5) None of the above
+*****
 KA2001: Exceptions
 What is an 'Exception'?
 
