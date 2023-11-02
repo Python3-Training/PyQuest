@@ -39,6 +39,11 @@ To more enjoy the happy quest you can [join the PyQuest team on Facebook](https:
 
 Please note that I also share much of my 'Pythoneering activities on my [Python Training Group](https://www.facebook.com/groups/nagyspythontraining) as well.
 
+## zProjects
+I am presently cobbling together more cards as part of [The Built-In Report Project](https://github.com/Python3-Training/The-Built-In-Report). 
+
+Destined to become yet another free Udemy offering, the playist is momentarily being [shared on GreedTube](https://www.youtube.com/playlist?list=PLItP5KoawLqk4RWEhEVmVxBfwmSmayWFk).
+
 ## zSupport?
 If you want to support the effort, I seek no donations. Instead, simply feel free to purchase one of [my educational](https://www.udemy.com/user/randallnagy2/) or [printed](https://www.amazon.com/Randall-Nagy/e/B08ZJLH1VN?ref=sr_ntt_srch_lnk_1&qid=1660050704&sr=8-1) productions?
 
