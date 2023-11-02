@@ -876,7 +876,7 @@ KA2035: Dict Comprehension
 (5) {1}
 *****
 KA2036: Object Values
-We use vals() to:
+We use vars() to:
 
 (1) Create object dictionaries
 (2) Manage collection types
