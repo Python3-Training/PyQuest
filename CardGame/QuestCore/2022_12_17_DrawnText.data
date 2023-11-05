@@ -552,6 +552,15 @@ KA1061: Integer Values
 (4) 255
 (5) -255
 *****
+KA1062: Trivia
+Python is named for the author's favorite:
+
+(1) Band
+(2) Politician
+(3) Animal
+(4) Sushi
+(5) None of the above
+*****
 KA2001: Exceptions
 What is an 'Exception'?
 
@@ -908,7 +917,7 @@ KA2039: Instance Detection
 (1) Checks `isa` relationships
 (2) Accepts exactly two parameters
 (3) Always nequires >= 1 class
-(4) Returns Returns True or False
+(4) Returns True or False
 (5) All of the above
 *****
 KA2040: Class Detection
@@ -1116,6 +1125,6 @@ A 'Weak Reference':
 
 (1) Changes existing members
 (2) Creates Objects
-(3) Safely removes members
+(3) Safely removes class members
 (4) Determines instance type
 (5) None of the above
