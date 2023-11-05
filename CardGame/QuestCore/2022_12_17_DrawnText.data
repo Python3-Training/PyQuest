@@ -902,6 +902,33 @@ KA2038: List Comprehension
 (4) All private operations
 (5) None of the above
 *****
+KA2039: Instance Detection
+>>> isinstance()
+
+(1) Checks `isa` relationships
+(2) Accepts exactly two parameters
+(3) Always nequires >= 1 class
+(4) Returns Returns True or False
+(5) All of the above
+*****
+KA2040: Class Detection
+>>> issubclass()
+
+(1) Checks `isa` relationships
+(2) Accepts exactly two parameters
+(3) Always requires >= 1 class
+(4) Returns True or False
+(5) All of the above
+*****
+KA2041: Class Relations
+>>> All Python classes have:
+
+(1) No common ancestor
+(2) A common `int` ancestor
+(3) A common `str` ancestor
+(4) Multiple inheritance
+(5) None of the above
+*****
 KA3001: Dunder Functions
 In Python, a "Dunder Function" is:
 
@@ -1075,7 +1102,7 @@ Use delattr() to:
 (4) Attempt attribute removal
 (5) None of the above
 ***** 
-KA3036: Type Management
+KA3037: Type Management
 Use type() to:
 
 (1) Change existing members
@@ -1083,3 +1110,12 @@ Use type() to:
 (3) Safely remove presence
 (4) Determine instance type
 (5) Two of the above
+***** 
+KA3038: Object Management
+A 'Weak Reference':
+
+(1) Changes existing members
+(2) Creates Objects
+(3) Safely removes members
+(4) Determines instance type
+(5) None of the above
