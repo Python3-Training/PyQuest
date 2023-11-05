@@ -1078,7 +1078,7 @@ How to add object membership?
 KA3033: Object Management
 Use hasattr() to:
 
-(1) Check Inheritance
+(1) Create Inheritance
 (2) Create 'Duck Typing'
 (3) Safely check presence
 (4) Return named attribute
