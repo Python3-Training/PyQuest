@@ -916,7 +916,7 @@ KA2039: Instance Detection
 
 (1) Checks `isa` relationships
 (2) Accepts exactly two parameters
-(3) Always nequires >= 1 class
+(3) Always requires >= 1 class
 (4) Returns True or False
 (5) All of the above
 *****
