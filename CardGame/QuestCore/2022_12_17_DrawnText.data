@@ -561,6 +561,30 @@ Python is named for the author's favorite:
 (4) Sushi
 (5) None of the above
 *****
+KA1063: Enumerations
+Built-in enumerate()
+
+(1) Is a class
+(2) Is a function
+*****
+KA1064: Iteration
+Which types are iterable?
+
+(1) int()
+(2) str()
+(3) float()
+(4) bool()
+(5) None of the above
+*****
+KA1065: Iteration
+Which types are iterable?
+
+(1) dict()
+(2) str()
+(3) list()
+(4) set()
+(5) All of the above
+*****
 KA2001: Exceptions
 What is an 'Exception'?
 
@@ -1128,3 +1152,24 @@ A 'Weak Reference':
 (3) Safely removes class members
 (4) Determines instance type
 (5) None of the above
+***** 
+KA3039: Iteration Management
+Iterable classes:
+
+(1) Cannot be created
+(2) Are part of object()
+(3) Are part of all built-ins
+(4) Determines instance type
+(5) None of the above
+***** 
+KA3040: Iteration Management
+Iterables must implement __next__
+
+(1) True
+(2) False
+***** 
+KA3041: Iteration Management
+Iterables must implement __iter__
+
+(1) True
+(2) False
