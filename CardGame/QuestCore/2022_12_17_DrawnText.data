@@ -984,7 +984,42 @@ KA2041: Class Relations
 (4) Multiple inheritance
 (5) None of the above
 *****
-KA3001: Dunder Functions
+KA2042: Object Evaluation
+The difference between str() and repr():
+
+(1) str() objects use eval()
+(2) eval() objects use str()
+(3) repr() is for humans
+(4) Strings are always the same
+(5) None of the above
+*****
+KA2043: Object Contents
+A __str__ opportunity may represent:
+
+(1) Instance reporting
+(2) Object evaluation
+(3) Big Data
+(4) SQL Databases
+(5) None of the above
+*****
+KA2044: Object Evaluation
+A __repr__ opportunity may represent:
+
+(1) Object reporting
+(2) Instance creation
+(3) Big Data
+(4) SQL Databases
+(5) None of the above
+*****
+KA2045: Code Evauation
+The built-in eval():
+
+(1) Can override globals()
+(2) Can use custom locals()
+(3) Always returns a result
+(4) Can be used by compile()
+(5) All of the above
+*****KA3001: Dunder Functions
 In Python, a "Dunder Function" is:
 
 (1)	A function that doesn't work
@@ -1192,6 +1227,48 @@ Iterables must implement __next__
 ***** 
 KA3041: Iteration Management
 Iterables must implement __iter__
+
+(1) True
+(2) False
+***** 
+KA3042: Code Evaluators
+Difference between eval() and exec()?
+
+(1) eval() parses strings
+(2) exec() runs programs
+(3) Both are used by compile()
+(4) eval() returns a result
+(5) exec() returns a result
+***** 
+KA3043: String Encoding
+How to determine platform str() encoding?
+
+(1) import os;sys.getdefaultencoding()
+(2) import sys;os.getdefaultencoding()
+(3) import sys;sys.getdefaultencoding()
+(4) import str;sys.getdefaultencoding()
+(5) import str;str.getdefaultencoding()
+***** 
+KA3044: Compile
+Pythons built-in compile()
+
+(1) May use 'eval()' or 'exec()'
+(2) Parameters allow locals()
+(3) Parameters allow globals()
+(4) Requires a file-name
+(5) Compiles & executes code
+***** 
+KA3045: Globals
+Pythons built-in global() returns a
+
+(1) string
+(2) boolean
+(3) mutable copy
+(4) mutable reference
+(5) potential object
+***** 
+KA3046: Expressions -v- Statements
+An Expression may have many Statements, but a Statement cannot have many Expressions.
 
 (1) True
 (2) False
