@@ -1272,3 +1272,45 @@ An Expression may have many Statements, but a Statement cannot have many Express
 
 (1) True
 (2) False
+***** 
+KA3047: Expressions -v- Statements
+An Expression may have many Statements, but a Statement cannot have many Statements
+
+(1) True
+(2) False
+***** 
+KA3048: Compile
+Pythons built-in compile()
+
+(1) 'eval', 'exec', 'single'
+(2) 'debug', 'eval', 'single'
+(3) 'compile', 'run', 'debug'
+(4) 'secure', 'lock', 'unlock'
+(5) Compiles & executes code
+***** 
+KA3049: Compile
+Pythons built-in compile()
+
+(1) Returns a 'code class'
+(2) Realized using exec()
+(3) Realized using eval()
+(4) Two of the above
+(5) All of the above
+***** 
+KA3050: Compile
+a=4;eval(compile('a+=5','','exec'))
+
+(1) a == 9
+(2) a == 4
+(3) SyntaxError
+(4) Two of the above
+(5) None of the above
+***** 
+KA3051: Compile
+a=4;eval(compile('a+=5','','eval'))
+
+(1) a == 9
+(2) a == 4
+(3) SyntaxError
+(4) Two of the above
+(5) None of the above
