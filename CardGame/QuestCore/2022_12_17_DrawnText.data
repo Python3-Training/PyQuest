@@ -1103,7 +1103,7 @@ KA3018: Deletion Caveat
 When will the del keyword never use our del dunder?
 *****
 KA3019: Function Decoration
-What is a `decorator function`?
+What is a 'function decorator`?
 *****
 KA3020: Creation Decorators
 What decorators are used to manage class creation?
