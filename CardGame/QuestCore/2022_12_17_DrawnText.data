@@ -1314,3 +1314,13 @@ a=4;eval(compile('a+=5','','eval'))
 (3) SyntaxError
 (4) Two of the above
 (5) None of the above
+***** 
+KA3052: @staticmethod
+The staticmethod decorator can be used on non-class functions
+
+(1) True
+(2) False
+***** 
+KA3053: Decorators
+How would you create a decorator?
+
