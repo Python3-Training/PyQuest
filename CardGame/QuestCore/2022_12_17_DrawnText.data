@@ -274,7 +274,7 @@ What is the purpose of a 'yield' statement?
 (5) None of the above
 *****
 KA1031: Set -v- Dictionary
-What is the difference between a dict and a set?
+What is the difference between a `dict` and a `set`?
 
 (1) A dict is mutable. A set is not
 (2) A set is slower than a dict
@@ -605,6 +605,24 @@ Show every odd between 1 and 10
         if i % 3 == 0:
            print(i)
 (4) range(1,10,3)
+(5) Two of the above
+*****
+KA1068: Set Basics
+>>> set('cat') - set('rat')
+
+(1) {'a', 't'}
+(2) {'t'}
+(3) {'c'}
+(4) {'c','t'}
+(5) Two of the above
+*****
+KA1069: Set Basics
+>>> set('rat') - set('cat')
+
+(1) {'a', 't'}
+(2) {'r'}
+(3) {'c'}
+(4) {'c','t'}
 (5) Two of the above
 *****
 KA2001: Exceptions
@@ -1323,4 +1341,31 @@ The staticmethod decorator can be used on non-class functions
 ***** 
 KA3053: Decorators
 How would you create a decorator?
+***** 
+KA3054: Advanced Set
+>>> set('cat') ^ set('rat')
+
+(1) {'c'}
+(2) {'t'}
+(3) {'c', 't'}
+(4) {'a'}
+(5) {'a', 't'}
+***** 
+KA3055: Advanced Dunders
+How to intercept the `&` Operator?
+
+(1) _&_
+(2) __&__
+(3) __amp__
+(4) _amp_
+(5) __and__
+***** 
+KA3056: Set Removal
+What is the difference between .remove & .discard?
+
+(1) .discard is safer
+(2) .remove may raise an Exception
+(3) .remove is also part of list()
+(4) .discard is not `Exceptionl` ;-)
+(5) All of the above
 
