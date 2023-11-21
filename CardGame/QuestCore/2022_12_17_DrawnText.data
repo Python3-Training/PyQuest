@@ -1037,6 +1037,24 @@ The built-in eval():
 (3) Always returns a result
 (4) Can be used by compile()
 (5) All of the above
+*****
+KA2046: Frozenset
+The frozenset():
+
+(1) Is a built-in function
+(2) Can be modified
+(3) Is an instance of 'set'
+(4) Is a subclass of 'set'
+(5) None of the above
+*****
+KA2047: Using Hash
+The hash():
+
+(1) Always returns a number
+(2) Can be modified
+(3) Is not required by set()
+(4) Never raises an Exception
+(5) None of the above
 *****KA3001: Dunder Functions
 In Python, a "Dunder Function" is:
 
@@ -1367,5 +1385,23 @@ What is the difference between .remove & .discard?
 (2) .remove may raise an Exception
 (3) .remove is also part of list()
 (4) .discard is not `Exceptionl` ;-)
+(5) All of the above
+***** 
+KA3057: Hashing
+What is hashing?
+
+(1) Creating a string for a number
+(2) Creating a list for a string
+(3) Creating a number for an object
+(4) Raising a 'value error'
+(5) All of the above
+***** 
+KA3058: Frozenset
+A frozenset()
+
+(1) Cannot be changed
+(2) Can be created from an iterable
+(3) Is not a child of set()
+(4) Is a built-in function
 (5) All of the above
 
