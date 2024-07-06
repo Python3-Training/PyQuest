@@ -4,7 +4,7 @@ Looking for that free 'Pythoneer card deck?
 
 ![Sample Card](https://github.com/Python3-Training/PyQuest/blob/main/CardGame/QuestBonus/K03001.png)
 
-Then here 'be (Tampa Bay "pirate speak") zCollection of [PyQuest](https://www.facebook.com/PythonVideo) game cards:
+Then here 'be (Tampa Bay "pirate speak") zCollection of PyQuest game cards:
 
 First, enjoy our basic 100 [PyQuest Core Cards](https://github.com/Python3-Training/PyQuest/tree/main/CardGame/QuestCore).
 
@@ -24,8 +24,6 @@ These videos take weeks to create - We could use your financial support.
 ## zGroups
 You might also want to bookmark the new [author's page on Amazon](https://www.amazon.com/Randall-Nagy/e/B08ZJLH1VN).
 
-Here are the links to both my personal [python product group](https://www.facebook.com/groups/nagyspythontraining) and our **20,000** member-strong ['Pythoneering group](https://www.facebook.com/groups/Python3Training). 
-
 ## zConcept
 Uniquely numbered, please feel free to share *_your_* solutions on *_your_* pages and / or posts. -Including the unique PyQuest card-number on *_your_* solutions helps other 'Pythoneers locate, lookup as well as appreciate *_your_* code, insights, and clever contributions across our 'Pythoneering planet!
 
@@ -33,11 +31,6 @@ Uniquely numbered, please feel free to share *_your_* solutions on *_your_* page
 If you would like to see *_our_* solutions, note that [The PyQuest Core Book](https://www.amazon.com/100-PyQuest-Cards-Randall-Nagy/dp/B0BZF8VHDJ/) is available on the 'zon. 
 
 When ready, the other books will be [showing up here](https://www.amazon.com/Randall-Nagy/e/B08ZJLH1VN)!
-
-## zTeam
-To more enjoy the happy quest you can [join the PyQuest team on Facebook](https://www.facebook.com/PythonVideo). 
-
-Please note that I also share much of my 'Pythoneering activities on my [Python Training Group](https://www.facebook.com/groups/nagyspythontraining) as well.
 
 ## zProjects
 I am presently cobbling together more cards as part of [The Built-In Report Project](https://github.com/Python3-Training/The-Built-In-Report). 
