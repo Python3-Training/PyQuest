@@ -12,7 +12,7 @@ PyQuest is also about sharing printable cards, videos, online training, our solu
 *Everything related to the question and answer database application is now here!*
 
 ## zGroup
-Created in May of 2020, here is the ever growing [Facebook group](https://www.facebook.com/PythonVideo/).
+Created in May of 2020.
 
 ## zVideos
 If you are new to Python - and a self-teacher - then [The PyQuest Primer](https://www.udemy.com/course/python-1000-the-python-primer/?referralCode=A22C48BD99DBF167A3DE) will show you how to use Python's **help system** to jump-start your very own DIY lessons.
@@ -34,7 +34,7 @@ Updated to 100 Q&A case studies the latest edition of **Python Interview Questio
 # zFree PyQuest Cards
 Looking for that free 'Pythoneer card deck?
 
-Then here 'be (Tampa Bay "pirate speak") zCollection of [PyQuest](https://www.facebook.com/PythonVideo) game cards:
+Then here 'be (Tampa Bay "pirate speak") zCollection of game cards:
 
 First, enjoy our basic 100 [PyQuest Core Cards](https://github.com/Python3-Training/PyQuest/tree/main/CardGame/QuestCore).
 
