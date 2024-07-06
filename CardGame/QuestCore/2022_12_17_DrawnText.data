@@ -1041,8 +1041,8 @@ The built-in eval():
 KA2046: Frozenset
 The frozenset():
 
-(1) Is a built-in function
-(2) Can be modified
+(1) Is a built-in
+(2) Is a modifiable collection
 (3) Is an instance of 'set'
 (4) Is a subclass of 'set'
 (5) None of the above
@@ -1074,7 +1074,7 @@ In Python, a "Wheels File" is:
 (5) None of the above
 *****
 KA3003: exec()
-What is Python's built-in exec()function used for?
+What is exec() used for?
 
 (1) To run an external application
 (2) To check if an object is callable
@@ -1109,7 +1109,7 @@ KA3008: Function Call Management
 Which Meta Method(s) are required to create a callable object?
 *****
 KA3009: Function Call Detection
-Which built-in function allows us to determine if an instance is callable?
+Which built-in allows us to determine if an instance is callable?
 *****
 KA3010: Deep Copy
 What is a deep copy?
@@ -1402,6 +1402,6 @@ A frozenset()
 (1) Cannot be changed
 (2) Can be created from an iterable
 (3) Is not a child of set()
-(4) Is a built-in function
+(4) Is a built-in
 (5) All of the above
 
