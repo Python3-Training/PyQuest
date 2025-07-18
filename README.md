@@ -17,11 +17,7 @@ Created in May of 2020.
 ## zVideos
 If you are new to Python - and a self-teacher - then [The PyQuest Primer](https://www.udemy.com/course/python-1000-the-python-primer/?referralCode=A22C48BD99DBF167A3DE) will show you how to use Python's **help system** to jump-start your very own DIY lessons.
 
-Created well before 2020 were the [Udemy Videos](https://www.udemy.com/user/randallnagy2/). The Official PyQuest Videos started with:
-- [Python 9000: Review Concepts (K1 thru K10)](https://www.udemy.com/course/python-interview-questions/?referralCode=6B199764132B575C503C)
-- [Python 9000: Review Concepts (K11 thru K22)](https://www.udemy.com/course/nagys-python-review-k11-k22/?referralCode=2280C848244C9714E1E2)
-
-These videos take weeks to create - We could use your financial support.
+[These videos](https://www.youtube.com/@TotalPythoneering) take weeks to create - We could use your [financial support](https://ko-fi.com/randallnagy)?
 
 ## zBooks
 Here are [the Amazon books](https://www.amazon.com/Randall-Nagy/e/B08ZJLH1VN/ref=aufs_dp_fta_dsk).
