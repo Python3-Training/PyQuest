@@ -1,7 +1,7 @@
 # PyQuest !
 **Nagy's Question &amp; Answer Collection for Python**
 
-PyQuest is a simple strategy to manage an ever growing set of questions & answers on the Python programming language. PyQuest's globally unique numbering strategy is designed to help other 'Pythoneers find YOUR clever solutions across the ['Pythoneering planet](https://link.springer.com/video/10.1007/978-1-4842-9454-3) as well.
+[PyQuest](https://www.youtube.com/shorts/9vcCmHwWhp8) is a simple strategy to manage an ever growing set of questions & answers on the Python programming language. PyQuest's globally unique numbering strategy is designed to help other 'Pythoneers find YOUR clever solutions across the ['Pythoneering planet](https://link.springer.com/video/10.1007/978-1-4842-9454-3) as well.
 
 PyQuest is also about sharing printable cards, videos, online training, our solutions, as well as an educational card game.
 
