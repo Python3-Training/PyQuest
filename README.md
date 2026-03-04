@@ -3,6 +3,8 @@
 
 [PyQuest](https://youtube.com/shorts/8dPNWR-4CUM?si=lQEM7ZdgQusdnWnR) is my strategy to manage an ever growing set of questions & answers on the Python programming language. PyQuest's globally unique numbering strategy is designed to help other 'Pythoneers find YOUR clever solutions across the ['Pythoneering planet](https://link.springer.com/video/10.1007/978-1-4842-9454-3) as well.
 
+🎓 If you're hungry for more, then we're crafting even MORE card-realted interview and review questions on the (TotalPythoneering Community](https://www.youtube.com/channel/UCuRivq7IOdwC38R1agNuhVw/community). 🫡
+
 PyQuest is also about sharing printable cards, videos, online training, our solutions, as well as an educational card game.
 
 ![Pyquest Logo](PyQuest_Logo.png)
