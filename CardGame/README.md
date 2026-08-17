@@ -10,7 +10,9 @@ First, enjoy our basic 100 [PyQuest Core Cards](https://github.com/Python3-Train
 
 Next, be sure to enjoy our huge collection of [PyQuest Project Cards](https://github.com/Python3-Training/PyQuest/tree/main/CardGame/QuestProjects) as well!
 
-You may have also watched a video or seen an independent concept demonstrated? If so, then [PyQuest Bonus Cards](https://github.com/Python3-Training/PyQuest/tree/main/CardGame/QuestBonus) might be what you're looking for ...
+You may have also watched a video or seen an independent concept demonstrated? If so, then [PyQuest Bonus Cards](https://github.com/Python3-Training/PyQuest/tree/main/CardGame/QuestBonus) might be what you're looking for?
+
+We're also back on YouTube as [Total Pythoneering](https://www.youtube.com/@TotalPythoneering).
 
 ## zVideos
 If you are new to Python - and a self-teacher - then [The PyQuest Primer](https://www.udemy.com/course/python-1000-the-python-primer/?referralCode=A22C48BD99DBF167A3DE) will show you how to use Python's **help system** to jump-start your very own DIY lessons.
