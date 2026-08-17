@@ -2,6 +2,8 @@
 
 The cards here are neither yet part of the [PyQuest Core](https://github.com/Python3-Training/PyQuest/tree/main/CardGame/QuestCore), nor the [Pyquest Projects](https://github.com/Python3-Training/PyQuest/tree/main/CardGame/QuestProjects) Decks. 
 
+We're also back on YouTube as [Total Pythoneering](https://www.youtube.com/@TotalPythoneering).
+
 ## Video Quests
 Cards prefixed by "KV" are part of an ongoing video quest.
 
