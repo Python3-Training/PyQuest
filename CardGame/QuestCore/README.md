@@ -5,6 +5,8 @@ share them, or simply collect your 'fav...
 
 You can also [order these cards online](https://www.amazon.com/100-PyQuest-Cards-Randall-Nagy/dp/B0BZF8VHDJ/).
 
+We're also back on YouTube as [Total Pythoneering](https://www.youtube.com/@TotalPythoneering).
+
 Also - if you need some help and / or want to see 
 the code, note that the [concepts and code](https://www.amazon.com/dp/B0BH97W78F) book 
 is also available on the 'zon, as well.
